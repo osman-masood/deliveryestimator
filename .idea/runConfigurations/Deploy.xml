@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Deploy" type="PythonConfigurationType" factoryName="Python">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="AWS_ACCESS_KEY_ID" value="AKIAI6PVSZKD5FS5TO5Q" />
+      <env name="AWS_SECRET_ACCESS_KEY" value="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" />
+    </envs>
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <module name="deliveryestimator" />
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bundle.py" />
+    <option name="PARAMETERS" value="--deploy" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <method />
+  </configuration>
+</component>

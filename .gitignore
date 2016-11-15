@@ -1,0 +1,7 @@
+.DS_Store
+
+venv/
+
+deployments/
+
+.idea/workspace.xml

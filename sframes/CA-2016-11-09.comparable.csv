@@ -1,0 +1,1119 @@
+vehicles,in_operation,num_vehicles,origin,destination,price,miles
+Car,1,1,"national city, CA","san diego, CA",50,11.9904
+Car,0,1,"san leandro, CA","burlingame, CA",150,25.9965
+Car,0,1,"riverside, CA","los angeles, CA",75,51.0204
+Van,0,1,"walnut creek, CA","cupertino, CA",200,58.9971
+Car,0,1,"los angeles, CA","san diego, CA",110,119.565
+Pickup,0,1,"san mateo, CA","long beach, CA",200,392.157
+"SUV, SUV",0,2,"mira loma, CA","martinez, CA",400,833.333
+Car,0,1,"san diego, CA","bloomington, CA",100,117.647
+SUV,0,1,"oakland, CA","la honda, CA",200,57.971
+Car,0,1,"newark, CA","richmond, CA",100,34.965
+Car,0,1,"bayside, CA","sonoma, CA",200,250
+Van,0,1,"santa clara, CA","la mesa, CA",400,470.588
+Car,1,1,"lodi, CA","richmond, CA",150,81.9672
+Car,0,1,"fremont, CA","tracy, CA",100,44.0529
+Car,0,1,"harbor city, CA","san diego, CA",130,107.438
+Van Full-size,0,1,"san jose, CA","visalia, CA",250,200
+Pickup,0,1,"long beach, CA","riverside, CA",100,49.0196
+Car,1,1,"san diego, CA","gardena, CA",100,126.582
+Car,1,1,"san martin, CA","fontana, CA",200,357.143
+SUV,0,1,"pinole, CA","menifee, CA",325,464.286
+Pickup,0,1,"riverside, CA","la mirada, CA",75,43.1034
+Car,0,1,"rancho mirage, CA","hawthorne, CA",150,131.579
+SUV,0,1,"costa mesa, CA","modesto, CA",225,357.143
+Car,0,1,"fresno, CA","van nuys, CA",150,211.268
+Car,0,1,"riverside, CA","livermore, CA",200,400
+SUV,0,1,"santa fe springs, CA","placentia, CA",50,19.0114
+Car,0,1,"los angeles, CA","stanford, CA",250,357.143
+"Car, Car, SUV",0,3,"riverside, CA","fresno, CA",390,847.826
+Pickup,0,1,"san luis obispo, CA","corona, CA",350,255.474
+Car,0,1,"santa ana, CA","fontana, CA",100,46.9484
+Pickup,0,1,"reno, NV","concord, CA",225,218.447
+Car,0,1,"anaheim, CA","menlo park, CA",225,387.931
+Pickup,1,1,"san diego, CA","long beach, CA",150,119.048
+SUV,0,1,"tustin, CA","chico, CA",400,519.481
+Other,1,1,"oakland, CA","oakland, CA",55,3.00055
+Van,0,1,"colton, CA","long beach, CA",70,70
+Car,0,1,"fresno, CA","la puente, CA",150,241.935
+SUV,1,1,"rancho cordova, CA","gardena, CA",150,405.405
+Car,0,1,"rancho cordova, CA","long beach, CA",175,406.977
+Car,1,1,"hayward, CA","long beach, CA",175,388.889
+SUV,0,1,"san luis obispo, CA","anaheim, CA",225,222.772
+Car,0,1,"santa clara, CA","modesto, CA",55,85.9375
+Sedan Midsize,0,1,"morgan hill, CA","fortuna, CA",450,319.149
+"SUV, SUV",0,2,"folsom, CA","hayward, CA",170,246.377
+Pickup,0,1,"eureka, CA","hayward, CA",250,297.619
+Sedan Small,0,1,"santa rosa, CA","diamond bar, CA",250,462.963
+Car,0,1,"fresno, CA","lathrop, CA",125,115.741
+SUV,0,1,"San Jose, CA","Sacramento, CA",55,125
+SUV,0,1,"fontana, CA","red bluff, CA",350,573.77
+SUV,0,1,"north hills, CA","fresno, CA",130,206.349
+SUV,0,1,"san francisco, CA","san diego, CA",300,491.803
+Van,0,1,"pleasanton, CA","san gabriel, CA",200,357.143
+Car,0,1,"san francisco, CA","oakland, CA",250,13.9978
+Car,0,1,"martinez, CA","fresno, CA",125,186.567
+"Van, Van, Van",0,3,"oceanside, CA","benicia, CA",975,1392.86
+Van,0,1,"yermo, CA","scotia, CA",350,636.364
+Car,0,1,"paso robles, CA","anaheim, CA",300,243.902
+Car,0,1,"mirada, CA","sacramento, CA",250,396.825
+"Car, SUV, SUV",0,3,"san diego, CA","corona, CA",210,300
+"Car, Car, Car, Car, Car, Car, Pickup, SUV, SUV",0,9,"oceanside, CA","santa clara, CA",1600,3902.44
+SUV,0,1,"los angeles, CA","clovis, CA",175,230.263
+"SUV, SUV",0,2,"san diego, CA","compton, CA",300,222.222
+Pickup,0,1,"santa maria, CA","los angeles, CA",300,182.927
+"Van, Van",0,2,"roseville, CA","hayward, CA",170,236.111
+"Car, Car, Car, Pickup",0,4,"riverside, CA","bakersfield, CA",340,607.143
+Car,0,1,"riverside, CA","sacramento, CA",250,446.429
+Car,0,1,"fremont, CA","long beach, CA",145,381.579
+"Car, Car, Car, Pickup, SUV",0,5,"rio linda, CA","napa, CA",375,334.821
+Car,0,1,"san diego, CA","la mirada, CA",100,112.36
+Car,0,1,"brentwood, CA","sacramento, CA",55,71.4286
+Car,0,1,"van nuys, CA","riverside, CA",150,78.9474
+Car,0,1,"palmdale, CA","sylmar, CA",300,51.9931
+Car,0,1,"fairfield, CA","carlsbad, CA",300,476.19
+Pickup,0,1,"san diego, CA","placentia, CA",100,91.7431
+Sedan Small,0,1,"redding, CA","san francisco, CA",230,216.981
+Car,0,1,"fremont, CA","north hollywood, CA",125,347.222
+Car,0,1,"long beach, CA","palo alto, CA",350,384.615
+Car,1,1,"bakersfield, CA","bellflower, CA",150,116.279
+Car,0,1,"san francisco, CA","rosemead, CA",240,393.443
+Pickup,0,1,"vista, CA","paramount, CA",180,86.9565
+Car,0,1,"long beach, CA","santa maria, CA",250,195.312
+SUV,0,1,"north hollywood, CA","san bruno, CA",225,362.903
+Other,1,1,"sacramento, CA","modesto, CA",200,68.9655
+Sedan Midsize,1,1,"bakersfield, CA","costa mesa, CA",150,157.895
+Car,0,1,"castaic, CA","escondido, CA",200,158.73
+Van,0,1,"whittier, CA","medford, OR",700,714.286
+Car,0,1,"castaic, CA","riverside, CA",210,100
+SUV,0,1,"eureka, CA","valencia, CA",400,615.385
+Car,0,1,"paramount, CA","santa ana, CA",75,26.9784
+Car,0,1,"south san francisco, CA","hacienda heights, CA",325,406.25
+"SUV, SUV",0,2,"fremont, CA","sacramento, CA",190,223.529
+"Car, Car",0,2,"riverside, CA","fresno, CA",270,562.5
+Car,0,1,"santa ana, CA","davis, CA",200,444.444
+Car,0,1,"rancho cordova, CA","la palma, CA",250,409.836
+Car,0,1,"fresno, CA","gardena, CA",300,234.375
+Car,0,1,"anaheim, CA","turlock, CA",200,327.869
+Car,0,1,"upland, CA","oakland, CA",225,394.737
+SUV,0,1,"chino, CA","san bernardino, CA",70,30.0429
+Car,0,1,"las vegas, NV","placentia, CA",150,250
+Van,0,1,"north hollywood, CA","commerce, CA",75,23.9617
+Car,0,1,"gilroy, CA","sacramento, CA",225,152.027
+"Car, Car",1,2,"fontana, CA","long beach, CA",150,120
+Car,0,1,"perris, CA","saratoga, CA",250,409.836
+"Car, Car, Car, Car, Car, Car, Car, Pickup, Van",0,9,"oceanside, CA","bakersfield, CA",1035,1696.72
+Car,0,1,"long beach, CA","paramount, CA",75,12.9983
+Car,1,1,"fair oaks, CA","irvine, CA",250,446.429
+"Car, Car, Car, Car, Car, Car, Car, Car, SUV",0,9,"hayward, CA","roseville, CA",495,1053.19
+Car,0,1,"fresno, CA","santa fe springs, CA",150,238.095
+Car,0,1,"colton, CA","carson, CA",85,70.2479
+"Car, Car, Car, SUV",0,4,"riverside, CA","sacramento, CA",640,1729.73
+Car,0,1,"monterey, CA","fresno, CA",200,151.515
+Car,0,1,"colton, CA","sacramento, CA",200,444.444
+Car,0,1,"arcadia, CA","santa clara, CA",450,357.143
+SUV,0,1,"huntington beach, CA","placentia, CA",65,22.0339
+SUV,0,1,"fremont, CA","los angeles, CA",150,357.143
+Pickup,0,1,"sun valley, CA","ontario, CA",125,50
+"Car, Car",0,2,"fontana, CA","anaheim, CA",150,70.0935
+Car,1,1,"lancaster, CA","los angeles, CA",150,93.1677
+Pickup,1,1,"fremont, CA","paramount, CA",150,375
+SUV,0,1,"anaheim, CA","daly city, CA",225,424.528
+"Car, Car, Car, Car, SUV",0,5,"mira loma, CA","oxnard, CA",275,763.889
+Car,0,1,"sacramento, CA","paradise, CA",115,96.6387
+SUV,1,1,"fresno, CA","south gate, CA",150,220.588
+Van,0,1,"monterey park, CA","el monte, CA",850,9.00042
+Car,0,1,"san francisco, CA","thousand oaks, CA",300,394.737
+Car,0,1,"anaheim, CA","burbank, CA",75,36.0577
+Car,0,1,"riverside, CA","walnut creek, CA",200,416.667
+Car,0,1,"escondido, CA","thousand oaks, CA",100,163.934
+Car,0,1,"riverside, CA","walnut creek, CA",180,418.605
+"Car, Car, Car, Car, Car, Car, SUV, SUV",0,8,"riverside, CA","sacramento, CA",1280,3459.46
+Car,0,1,"riverside, CA","burbank, CA",75,68.8073
+SUV,0,1,"san jose, CA","modesto, CA",55,85.9375
+Car,0,1,"hayward, CA","poway, CA",375,487.013
+Convertible,0,1,"riverside, CA","santa clara, CA",200,400
+Car,0,1,"los angeles, CA","roseville, CA",250,409.836
+Van,0,1,"san jose, CA","novato, CA",200,69.9301
+Car,0,1,"montebello, CA","roseville, CA",200,416.667
+Other,0,1,"corona, CA","south gate, CA",150,57.0342
+Car,0,1,"long beach, CA","riverside, CA",75,50
+Pickup,0,1,"san luis obispo, CA","san diego, CA",400,320
+Car,1,1,"elk grove, CA","richmond, CA",125,89.2857
+Car,0,1,"tracy, CA","oakland, CA",80,47.0588
+SUV,0,1,"hollister, CA","reseda, CA",200,307.692
+Car,0,1,"fresno, CA","long beach, CA",140,241.379
+"Car, Car",0,2,"riverside, CA","costa mesa, CA",170,100
+Car,0,1,"van nuys, CA","santa maria, CA",180,142.857
+Car,0,1,"roseville, CA","palo alto, CA",150,133.929
+Pickup,0,1,"santa ana, CA","corning, CA",400,533.333
+Car,0,1,"san diego, CA","bakersfield, CA",160,219.178
+Car,0,1,"north hills, CA","chico, CA",375,468.75
+Pickup Crew Cab,0,1,"fullerton, CA","arcata, CA",600,689.655
+Car,0,1,"rancho cordova, CA","gardena, CA",175,406.977
+Car,0,1,"hayward, CA","south san francisco, CA",150,29.0135
+Car,0,1,"Carlsbad, CA","Bakersfield, CA",118,187.302
+Car,0,1,"fairfield, CA","sherman oaks, CA",180,382.979
+SUV,0,1,"escondido, CA","san jose, CA",375,457.317
+"Car, SUV",1,2,"fontana, CA","long beach, CA",150,128.205
+SUV,0,1,"reno, NV","oakland, CA",250,225.225
+Car,1,1,"reno, NV","rancho cordova, CA",150,145.631
+Car,0,1,"mira loma, CA","walnut creek, CA",200,408.163
+Pickup,0,1,"riverdale, CA","richmond, CA",275,203.704
+Car,0,1,"san francisco, CA","long beach, CA",225,409.091
+Car,0,1,"chino, CA","carlsbad, CA",100,78.7402
+"Car, SUV",0,2,"mira loma, CA","montebello, CA",140,80
+Other,1,1,"watsonville, CA","hayward, CA",115,70.9877
+Van,0,1,"anderson, CA","richmond, CA",200,192.308
+Pickup,0,1,"paramount, CA","union city, CA",325,382.353
+"Pickup, SUV",0,2,"anaheim, CA","montebello, CA",100,55.8659
+Car,1,1,"hayward, CA","carson, CA",170,377.778
+"Car, Car, Car",0,3,"newport beach, CA","fresno, CA",600,810.811
+Car,0,1,"oceanside, CA","south san francisco, CA",350,479.452
+Van,0,1,"oceanside, CA","fontana, CA",200,76.0456
+Pickup,0,1,"whittier, CA","auburn, CA",300,441.176
+Car,0,1,"national city, CA","upland, CA",100,121.951
+Car,1,1,"hayward, CA","glendale, CA",200,363.636
+Car,1,1,"los angeles, CA","lakeside, CA",100,136.986
+Van,0,1,"mc farland, CA","inglewood, CA",150,137.615
+Car,0,1,"redding, CA","oxnard, CA",250,555.556
+Car,0,1,"oakland, CA","san carlos, CA",150,35.9712
+Pickup,0,1,"north hollywood, CA","anaheim, CA",100,52.0833
+Car,0,1,"pasadena, CA","sacramento, CA",225,401.786
+Car,0,1,"san francisco, CA","santa barbara, CA",250,316.456
+SUV,0,1,"anaheim, CA","port hueneme, CA",150,86.2069
+SUV,0,1,"san jose, CA","modesto, CA",55,85.9375
+Car,1,1,"los angeles, CA","long beach, CA",50,20
+Pickup,0,1,"newark, CA","placentia, CA",200,400
+Car,0,1,"santa ana, CA","fresno, CA",175,265.152
+SUV,0,1,"san jose, CA","la puente, CA",175,350
+"SUV, SUV, SUV",0,3,"los angeles, CA","martinez, CA",550,1122.45
+Car,0,1,"colton, CA","north highlands, CA",200,454.545
+SUV,1,1,"martinez, CA","gardena, CA",175,388.889
+"Van, Van",0,2,"san diego, CA","mira loma, CA",275,213.178
+SUV,0,1,"chula vista, CA","sacramento, CA",200,512.821
+SUV,0,1,"redondo beach, CA","riverside, CA",100,64.1026
+Car,0,1,"fresno, CA","upland, CA",200,256.41
+Van,0,1,"pasadena, CA","oakland, CA",325,373.563
+SUV,0,1,"gardena, CA","fresno, CA",150,238.095
+SUV,0,1,"rocklin, CA","reno, NV",300,115.83
+SUV,0,1,"buellton, CA","valencia, CA",125,122.549
+Sedan Small,1,1,"sacramento, CA","redlands, CA",250,446.429
+Car,0,1,"s san francisco, CA","el monte, CA",175,397.727
+SUV,0,1,"bryn mawr, CA","chico, CA",550,533.981
+Pickup Crew Cab,0,1,"san francisco, CA","la mesa, CA",300,508.475
+Car,0,1,"fontana, CA","long beach, CA",75,60
+SUV,1,1,"martinez, CA","inglewood, CA",175,388.889
+Car,0,1,"oceanside, CA","west sacramento, CA",250,480.769
+Sedan Midsize,0,1,"fremont, CA","fortuna, CA",450,283.019
+Car,0,1,"santa monica, CA","palm springs, CA",150,119.048
+Car,0,1,"fairfield, CA","sacramento, CA",55,49.1071
+Car,0,1,"sacramento, CA","hayward, CA",85,110.39
+SUV,0,1,"riverside, CA","roseville, CA",165,458.333
+Car,0,1,"morgan hill, CA","w sacramento, CA",150,133.929
+Sedan Midsize,0,1,"garden grove, CA","sacramento, CA",200,408.163
+Car,0,1,"anaheim, CA","san juan capistrano, CA",75,40.9836
+Van,0,1,"victorville, CA","chico, CA",500,500
+SUV,0,1,"temecula, CA","san jose, CA",300,434.783
+Pickup Crew Cab,0,1,"indio, CA","arcata, CA",550,774.648
+Car,0,1,"roseville, CA","hayward, CA",85,119.718
+Car,1,1,"gardena, CA","pacoima, CA",75,33.9367
+Van Mini,1,1,"fremont, CA","north hollywood, CA",200,344.828
+Sedan Small,0,1,"santa clara, CA","san diego, CA",250,454.545
+Car,0,1,"glendale, CA","murrieta, CA",100,86.9565
+Car,0,1,"fremont, CA","san diego, CA",250,462.963
+Van,0,1,"los angeles, CA","fontana, CA",80,66.1157
+Car,0,1,"hayward, CA","national city, CA",250,490.196
+Car,0,1,"lodi, CA","sacramento, CA",100,34.965
+Car,1,1,"ontario, CA","oak view, CA",125,115.741
+SUV,1,1,"fresno, CA","carson, CA",150,230.769
+SUV,0,1,"roseville, CA","hayward, CA",85,118.056
+SUV,0,1,"reno, NV","hayward, CA",200,240.964
+Car,0,1,"fresno, CA","camarillo, CA",250,229.358
+Other,0,1,"sun valley, CA","ontario, CA",75,50
+Car,0,1,"national city, CA","tracy, CA",300,441.176
+SUV,0,1,"reno, NV","seaside, CA",300,333.333
+Car,0,1,"San Jose, CA","Modesto, CA",55,88.7097
+SUV,0,1,"los angeles, CA","redwood city, CA",325,357.143
+SUV,0,1,"san diego, CA","san jose, CA",350,466.667
+Car,0,1,"santa monica, CA","chico, CA",400,481.928
+Car,0,1,"yorba linda, CA","el cerrito, CA",180,418.605
+Car,0,1,"oceanside, CA","south san francisco, CA",275,474.138
+Car,0,1,"newport beach, CA","oakland, CA",190,413.043
+SUV,0,1,"castaic, CA","bakersfield, CA",80,57.971
+SUV,1,1,"martinez, CA","gardena, CA",170,386.364
+Pickup,0,1,"san luis obispo, CA","escondido, CA",200,303.03
+Car,1,1,"los angeles, CA","carson, CA",50,12.987
+Vehicle,0,1,"santa ana, CA","sacramento, CA",225,424.528
+Car,0,1,"garden grove, CA","roseville, CA",180,439.024
+Car,0,1,"santa maria, CA","concord, CA",250,287.356
+Car,0,1,"fremont, CA","long beach, CA",140,388.889
+Car,0,1,"fontana, CA","union city, CA",300,416.667
+"Car, Car",0,2,"lakewood, CA","thousand oaks, CA",150,131.579
+SUV,0,1,"oceanside, CA","hayward, CA",275,450.82
+SUV,0,1,"santa rosa, CA","santa fe springs, CA",200,444.444
+"Car, Van",1,2,"concord, CA","richmond, CA",200,51.9481
+Car,0,1,"oakland, CA","sacramento, CA",175,86.2069
+SUV,1,1,"oceanside, CA","commerce, CA",150,83.7989
+Pickup,1,1,"clayton, CA","richmond, CA",125,36.9822
+Car,0,1,"woodland hills, CA","gardena, CA",70,37.037
+Car,0,1,"selma, CA","hayward, CA",100,188.679
+Coupe,1,1,"north hollywood, CA","san leandro, CA",250,347.222
+SUV,1,1,"north hollywood, CA","lamont, CA",150,87.2093
+"Motorcycle, SUV Large",1,2,"pleasanton, CA","oakley, CA",200,114.286
+Pickup,1,1,"fremont, CA","long beach, CA",175,388.889
+Car,0,1,"cupertino, CA","palm desert, CA",175,472.973
+SUV,0,1,"sacramento, CA","seaside, CA",250,196.85
+Pickup,0,1,"san martin, CA","gardena, CA",175,330.189
+Car,0,1,"thousand oaks, CA","bakersfield, CA",80,111.111
+Car,0,1,"hayward, CA","riverside, CA",200,408.163
+Car,1,1,"hayward, CA","carson, CA",200,392.157
+Car,0,1,"fremont, CA","long beach, CA",175,388.889
+Car,0,1,"van nuys, CA","berkeley, CA",325,361.111
+Car,1,1,"bay point, CA","downey, CA",175,380.435
+Car,1,1,"spring valley, CA","anaheim, CA",100,107.527
+"Pickup, Pickup",0,2,"tracy, CA","la mesa, CA",840,893.617
+Car,0,1,"beverly hills, CA","carlsbad, CA",200,105.263
+SUV,0,1,"carlsbad, CA","fresno, CA",300,312.5
+Van,0,1,"newark, CA","costa mesa, CA",175,397.727
+Van,1,1,"citrus heights, CA","richmond, CA",125,89.2857
+Car,0,1,"oceanside, CA","san diego, CA",65,34.9462
+Car,0,1,"rancho cordova, CA","gardena, CA",160,400
+Car,0,1,"perris, CA","arcata, CA",300,714.286
+SUV,0,1,"sunnyvale, CA","santa fe springs, CA",175,364.583
+Car,0,1,"el cajon, CA","arcata, CA",675,784.884
+Boat,0,1,"isleton, CA","santa cruz, CA",1000,120.048
+Other,0,1,"milpitas, CA","redwood city, CA",525,30
+Car,0,1,"san luis obispo, CA","compton, CA",225,200.893
+SUV,0,1,"hayward, CA","escondido, CA",225,478.723
+Pickup,0,1,"fremont, CA","irvine, CA",175,397.727
+Other,0,1,"lake elsinore, CA","ukiah, CA",1250,565.611
+SUV,0,1,"sacramento, CA","fresno, CA",200,166.667
+Pickup,1,1,"san diego, CA","montebello, CA",100,128.205
+Car,0,1,"gardena, CA","los angeles, CA",70,8
+SUV,0,1,"valencia, CA","sacramento, CA",170,346.939
+"Car, Van",0,2,"pasadena, CA","san rafael, CA",450,789.474
+Car,0,1,"oceanside, CA","livermore, CA",300,434.783
+Car,0,1,"benicia, CA","san francisco, CA",125,45.9559
+Car,0,1,"fontana, CA","sacramento, CA",200,444.444
+SUV,0,1,"fontana, CA","long beach, CA",75,64.1026
+Pickup,0,1,"pittsburg, CA","anaheim, CA",200,400
+Car,0,1,"los angeles, CA","anaheim, CA",85,39.9061
+Car,0,1,"petaluma, CA","twentynine palms, CA",350,564.516
+Car,0,1,"gardena, CA","san diego, CA",100,117.647
+Car,0,1,"rancho cordova, CA","wilmington, CA",200,408.163
+"Car, Car, SUV",0,3,"riverside, CA","fresno, CA",405,826.531
+"Car, Car, Car, Car, Car, Car",0,6,"rio linda, CA","newark, CA",600,689.655
+Van,0,1,"lompoc, CA","norwalk, CA",175,163.551
+Van,0,1,"van nuys, CA","riverside, CA",150,73.1707
+Other,0,1,"burlingame, CA","tracy, CA",130,64.0394
+Pickup,1,1,"turlock, CA","richmond, CA",175,101.156
+Van,0,1,"palo alto, CA","mammoth lakes, CA",450,279.503
+Car,0,1,"huntington beach, CA","compton, CA",100,22.9885
+Car,0,1,"riverside, CA","fontana, CA",60,18.018
+Car,0,1,"san francisco, CA","paso robles, CA",200,208.333
+Car,0,1,"van nuys, CA","richmond, CA",350,368.421
+Car,0,1,"paso robles, CA","paramount, CA",350,224.359
+SUV,0,1,"valencia, CA","sunnyvale, CA",225,316.901
+Car,0,1,"hawthorne, CA","ontario, CA",58,51.7857
+Sedan Midsize,0,1,"redding, CA","los angeles, CA",300,555.556
+Car,0,1,"escondido, CA","gardena, CA",100,100
+Car,0,1,"long beach, CA","bakersfield, CA",90,120
+Other,0,1,"ontario, CA","chula vista, CA",200,127.389
+Car,0,1,"upland, CA","riverside, CA",75,30
+Car,0,1,"simi valley, CA","bakersfield, CA",100,94.3396
+Other,0,1,"corona, CA","tracy, CA",200,363.636
+"Car, Car, Car, Pickup, Pickup, Pickup, Pickup, SUV",0,8,"pleasanton, CA","sacramento, CA",750,789.474
+Car,0,1,"san francisco, CA","port hueneme, CA",350,368.421
+Car,0,1,"richmond, CA","san diego, CA",200,487.805
+Car,0,1,"walnut creek, CA","valencia, CA",200,333.333
+Car,0,1,"los angeles, CA","sacramento, CA",275,398.551
+Car,1,1,"hayward, CA","los angeles, CA",200,363.636
+SUV,0,1,"san luis obispo, CA","berkeley, CA",250,238.095
+SUV,0,1,"oakland, CA","santa clara, CA",175,43.9698
+"Car, Car",0,2,"mira loma, CA","montebello, CA",140,80
+"Car, Car, Car, Car",0,4,"san francisco, CA","murrieta, CA",1100,1833.33
+Car,0,1,"pasadena, CA","port hueneme, CA",175,66.0377
+SUV,0,1,"bloomington, CA","compton, CA",100,59.1716
+SUV,0,1,"fremont, CA","sacramento, CA",95,111.765
+Pickup,0,1,"sacramento, CA","whittier, CA",225,394.737
+SUV,1,1,"fresno, CA","carson, CA",200,243.902
+SUV,0,1,"santa rosa, CA","sacramento, CA",125,110.619
+Vehicle,0,1,"concord, CA","marina, CA",225,117.188
+SUV,0,1,"burbank, CA","san jose, CA",300,329.67
+SUV,0,1,"san diego, CA","tracy, CA",300,441.176
+Car,0,1,"south san francisco, CA","upland, CA",185,420.455
+Car,0,1,"sunnyvale, CA","roseville, CA",125,137.363
+SUV,0,1,"van nuys, CA","anaheim, CA",75,51.0204
+Car,0,1,"el cajon, CA","costa mesa, CA",125,101.626
+Car,0,1,"goleta, CA","oakland, CA",200,303.03
+Pickup,0,1,"woodland, CA","concord, CA",250,75.0751
+Car,0,1,"hayward, CA","ontario, CA",150,394.737
+SUV,0,1,"beverly hills, CA","sacramento, CA",300,384.615
+Car,0,1,"hayward, CA","costa mesa, CA",250,403.226
+Car,0,1,"anaheim, CA","north highlands, CA",200,434.783
+Car,0,1,"folsom, CA","rancho cucamonga, CA",200,444.444
+Car,0,1,"northridge, CA","spring valley, CA",150,164.835
+Pickup,1,1,"los angeles, CA","long beach, CA",50,20
+Car,0,1,"sacramento, CA","fremont, CA",90,112.5
+"Car, Car, Car, Car, Car",0,5,"rio linda, CA","newark, CA",500,574.713
+Pickup,1,1,"san diego, CA","moreno valley, CA",300,103.093
+Car,1,1,"north hollywood, CA","newark, CA",175,343.137
+Car,0,1,"anaheim, CA","northridge, CA",75,64.1026
+Car,0,1,"torrance, CA","mission viejo, CA",75,50
+SUV,0,1,"temecula, CA","north highlands, CA",300,483.871
+Car,1,1,"fremont, CA","wilmington, CA",175,380.435
+Car,0,1,"gardena, CA","modesto, CA",250,337.838
+Car,0,1,"long beach, CA","san jose, CA",225,362.903
+Car,0,1,"van nuys, CA","anaheim, CA",125,51.0204
+"Car, Car, Car",0,3,"riverside, CA","bakersfield, CA",255,455.357
+SUV,1,1,"sacramento, CA","paramount, CA",175,397.727
+"Car, Car, Car, Car, Car, Car, Car, Car, Car",0,9,"mira loma, CA","fresno, CA",1215,2700
+Car,0,1,"Sacramento, CA","Arcata, CA",300,322.581
+Car,0,1,"anaheim, CA","elk grove, CA",200,400
+Car,0,1,"san diego, CA","sacramento, CA",300,508.475
+Car,0,1,"riverside, CA","palo alto, CA",250,409.836
+Car,0,1,"hacienda heights, CA","bakersfield, CA",100,116.279
+"Car, Car, Car, Car, Car, Pickup, SUV",0,7,"mira loma, CA","fresno, CA",945,1890
+Car,0,1,"gardena, CA","irvine, CA",70,41.9162
+"Car, Car",0,2,"sacramento, CA","fremont, CA",200,224.719
+Car,0,1,"san diego, CA","fair oaks, CA",270,519.231
+Car,1,1,"glendale, CA","concord, CA",345,363.158
+"Pickup, Pickup",0,2,"tracy, CA","la mesa, CA",1050,897.436
+Other,0,1,"los angeles, CA","murrieta, CA",300,90.9091
+SUV,0,1,"rancho cucamonga, CA","visalia, CA",200,227.273
+SUV,0,1,"tracy, CA","paso robles, CA",200,206.186
+Pickup,0,1,"san diego, CA","los altos hills, CA",390,487.5
+Car,1,1,"los osos, CA","carson, CA",250,219.298
+Car,1,1,"los angeles, CA","wilmington, CA",75,23.9617
+SUV,0,1,"hayward, CA","south san francisco, CA",200,28.9855
+Car,0,1,"north hollywood, CA","anaheim, CA",85,52.1472
+Car,0,1,"north hollywood, CA","santa ana, CA",120,54.0541
+"Car, Car, Car, Car, Car, Car, Car, Car",0,8,"riverside, CA","sacramento, CA",1280,3459.46
+Car,0,1,"sunnyvale, CA","san diego, CA",300,461.538
+Car,0,1,"escondido, CA","la mirada, CA",100,87.7193
+SUV,1,1,"rancho cucamonga, CA","commerce, CA",75,48.0769
+SUV,0,1,"reno, NV","lafayette, CA",300,208.333
+Car,0,1,"clovis, CA","richmond, CA",250,198.413
+Van,0,1,"hayward, CA","commerce, CA",175,372.34
+Other,0,1,"burlingame, CA","pasadena, CA",100,384.615
+Pickup,1,1,"sacramento, CA","gardena, CA",150,394.737
+Car,0,1,"los angeles, CA","lake elsinore, CA",75,78.125
+Van,0,1,"mira loma, CA","gardena, CA",125,55.0661
+Other,0,1,"anaheim, CA","capitola, CA",200,370.37
+Car,0,1,"carson, CA","san diego, CA",110,114.583
+Sedan Small,1,1,"oxnard, CA","cypress, CA",200,82.9876
+Car,0,1,"san martin, CA","lake forest, CA",200,363.636
+SUV,0,1,"fremont, CA","fontana, CA",200,408.163
+Car,0,1,"san diego, CA","anaheim, CA",100,112.36
+"Car, Car, Car",0,3,"anaheim, CA","corte madera, CA",750,1271.19
+Car,0,1,"north hills, CA","port hueneme, CA",125,51.0204
+Other,0,1,"costa mesa, CA","san jose, CA",200,377.358
+SUV,0,1,"tracy, CA","san diego, CA",250,454.545
+"SUV, SUV",0,2,"san diego, CA","daly city, CA",600,1016.95
+Car,0,1,"corona, CA","bakersfield, CA",90,155.172
+Car,0,1,"gardena, CA","corona, CA",80,55.9441
+Car,0,1,"woodland, CA","hayward, CA",85,100
+"Car, SUV, SUV, SUV",0,4,"riverside, CA","corte madera, CA",1050,1779.66
+SUV,0,1,"oceano, CA","el monte, CA",200,190.476
+"Car, Car",0,2,"tracy, CA","riverside, CA",350,760.87
+Car,0,1,"el cajon, CA","costa mesa, CA",125,96.1538
+Car,0,1,"riverside, CA","anaheim, CA",85,25.9939
+Car,1,1,"los angeles, CA","wilmington, CA",75,17.0068
+Car,0,1,"fontana, CA","san leandro, CA",250,409.836
+Pickup,0,1,"san jose, CA","placentia, CA",200,363.636
+SUV,0,1,"elk grove, CA","san diego, CA",250,490.196
+Car,0,1,"bakersfield, CA","santa monica, CA",150,126.05
+Car,0,1,"menlo park, CA","valencia, CA",200,327.869
+Car,0,1,"oceano, CA","el monte, CA",300,191.083
+"Car, Car, Car, Car, SUV",0,5,"hayward, CA","modesto, CA",275,343.75
+Van,0,1,"whittier, CA","redding, CA",600,566.038
+Car,0,1,"culver city, CA","san diego, CA",150,129.31
+Car,0,1,"moraga, CA","ventura, CA",250,384.615
+SUV,0,1,"glendale, CA","port hueneme, CA",100,62.1118
+Car,0,1,"garden grove, CA","fresno, CA",131,262
+SUV,0,1,"san diego, CA","yuba city, CA",425,537.975
+Car,0,1,"san carlos, CA","richmond, CA",175,39.9543
+Car,0,1,"venice, CA","san diego, CA",100,121.951
+Pickup,0,1,"san diego, CA","brentwood, CA",370,462.5
+SUV,0,1,"norwalk, CA","san jose, CA",225,357.143
+Car,0,1,"newark, CA","irvine, CA",200,400
+"Car, Car, Car",0,3,"mira loma, CA","oxnard, CA",180,321.429
+Car,0,1,"los angeles, CA","riverside, CA",100,64.9351
+SUV Large,0,1,"la habra, CA","weed, CA",500,641.026
+Pickup,0,1,"encinitas, CA","la mirada, CA",100,81.3008
+"Pickup, Van",0,2,"pomona, CA","irvine, CA",300,77.9221
+Car,0,1,"hayward, CA","apple valley, CA",175,416.667
+Car,0,1,"fremont, CA","santa ana, CA",200,400
+Car,0,1,"fontana, CA","pomona, CA",85,22.0207
+Car,1,1,"martinez, CA","oakland, CA",100,34.0136
+Car,0,1,"martinez, CA","richmond, CA",150,21.9941
+Car,0,1,"mira loma, CA","rancho cordova, CA",200,434.783
+Sedan Small,0,1,"sacramento, CA","mckinleyville, CA",800,333.333
+Car,0,1,"los angeles, CA","richmond, CA",250,378.788
+Car,1,1,"san martin, CA","commerce, CA",200,322.581
+Pickup,0,1,"roseville, CA","los angeles, CA",200,416.667
+Car,0,1,"valencia, CA","bakersfield, CA",80,74.7664
+Car,1,1,"lancaster, CA","wilmington, CA",160,103.226
+Sedan Midsize,0,1,"mill valley, CA","san diego, CA",350,514.706
+Car,0,1,"san diego, CA","san francisco, CA",350,492.958
+10 Van,0,1,"sunnyvale, CA","tracy, CA",1501,470.533
+"Car, SUV",0,2,"riverside, CA","corte madera, CA",500,892.857
+Car,0,1,"aromas, CA","richmond, CA",200,98.0392
+Car,0,1,"anaheim, CA","roseville, CA",225,441.176
+SUV,0,1,"thousand oaks, CA","escondido, CA",100,163.934
+Van,0,1,"long beach, CA","anaheim, CA",75,21.9941
+Car,1,1,"bakersfield, CA","anaheim, CA",125,131.579
+Van Full-size,0,1,"santa rosa, CA","laguna niguel, CA",475,479.798
+SUV,0,1,"san martin, CA","sun valley, CA",175,301.724
+Car,1,1,"oakland, CA","riverside, CA",180,418.605
+Car,1,1,"fremont, CA","carson, CA",175,372.34
+Car,0,1,"hayward, CA","san diego, CA",225,478.723
+Car,0,1,"san diego, CA","sun valley, CA",100,133.333
+SUV,0,1,"santa rosa, CA","santa fe springs, CA",200,454.545
+Car,1,1,"moorpark, CA","richmond, CA",275,387.324
+Car,0,1,"van nuys, CA","bakersfield, CA",90,85.7143
+Car,0,1,"redding, CA","tracy, CA",155,238.462
+Car,0,1,"van nuys, CA","compton, CA",100,34.965
+SUV,0,1,"anaheim, CA","anaheim, CA",55,7.99419
+Car,0,1,"long beach, CA","plumas lake, CA",400,449.438
+Car,0,1,"carlsbad, CA","san carlos, CA",400,465.116
+Pickup,0,1,"north hills, CA","central point, OR",600,681.818
+SUV,0,1,"baldwin park, CA","san francisco, CA",250,396.825
+"Car, Car",0,2,"south san francisco, CA","corona, CA",350,897.436
+Car,1,1,"hayward, CA","long beach, CA",200,392.157
+SUV,0,1,"lancaster, CA","porterville, CA",175,147.059
+Car,0,1,"hayward, CA","san jose, CA",150,30.9917
+Car,0,1,"upland, CA","san diego, CA",100,113.636
+SUV,0,1,"lemoore, CA","santa fe springs, CA",150,214.286
+Car,0,1,"hayward, CA","richmond, CA",125,29.0023
+"Car, Car, Car, Car, Car, SUV, SUV",0,7,"fontana, CA","irvine, CA",1120,395.76
+Car,0,1,"newport beach, CA","sacramento, CA",200,434.783
+Car,0,1,"paramount, CA","san diego, CA",100,102.041
+Car,0,1,"gardena, CA","fresno, CA",150,241.935
+SUV,0,1,"san diego, CA","long beach, CA",150,110.294
+SUV,1,1,"sacramento, CA","richmond, CA",125,82.2368
+SUV,0,1,"fontana, CA","paramount, CA",75,50
+Pickup,0,1,"gardena, CA","carmichael, CA",400,412.371
+Car,0,1,"upland, CA","san diego, CA",100,117.647
+SUV,0,1,"del mar, CA","gardena, CA",100,98.0392
+2 Car,0,1,"san francisco, CA","san diego, CA",500,1000
+SUV,0,1,"west hollywood, CA","redding, CA",500,537.634
+SUV,1,1,"rancho cucamonga, CA","montebello, CA",70,41.9162
+Car,0,1,"san jose, CA","sacramento, CA",100,131.579
+"SUV, SUV",0,2,"san diego, CA","encino, CA",400,283.688
+SUV,0,1,"seaside, CA","sacramento, CA",250,196.85
+Car,0,1,"tustin, CA","san jose, CA",225,368.852
+Van,0,1,"campbell, CA","sylmar, CA",300,337.079
+SUV,1,1,"rancho cordova, CA","huntington park, CA",185,393.617
+Car,0,1,"sunnyvale, CA","oakland, CA",175,47.043
+Car,0,1,"san mateo, CA","pasadena, CA",225,381.356
+Car,0,1,"south gate, CA","santa paula, CA",175,88.8325
+Car,1,1,"sun valley, CA","gardena, CA",70,30.9735
+SUV,0,1,"san diego, CA","gardena, CA",100,107.527
+Car,0,1,"woodland hills, CA","ontario, CA",60,65.9341
+SUV,0,1,"tracy, CA","valencia, CA",200,289.855
+Car,0,1,"folsom, CA","sacramento, CA",55,23.0126
+Car,0,1,"bay point, CA","fresno, CA",125,181.159
+Other,0,1,"fontana, CA","lynwood, CA",550,52.9865
+Car,0,1,"ontario, CA","san jose, CA",200,377.358
+Car,0,1,"newport beach, CA","san francisco, CA",300,428.571
+Pickup,0,1,"downey, CA","sacramento, CA",325,401.235
+Car,1,1,"van nuys, CA","fontana, CA",150,63.0252
+Car,0,1,"hayward, CA","sun valley, CA",175,350
+Car,0,1,"rosemead, CA","folsom, CA",200,416.667
+"Sedan Midsize, Sedan Midsize",0,2,"los angeles, CA","san rafael, CA",585,790.541
+Car,0,1,"san francisco, CA","placentia, CA",175,416.667
+SUV,1,1,"martinez, CA","carson, CA",200,392.157
+Car,0,1,"riverside, CA","seaside, CA",275,381.944
+Car,0,1,"stanton, CA","port hueneme, CA",150,85.2273
+Car,0,1,"anaheim, CA","san diego, CA",100,98.0392
+Car,1,1,"santa maria, CA","north hollywood, CA",400,156.25
+SUV,0,1,"san diego, CA","bakersfield, CA",118,214.545
+Car,0,1,"van nuys, CA","sunnyvale, CA",250,337.838
+SUV Large,0,1,"huntington beach, CA","crescent city, CA",900,833.333
+"Car, Car",0,2,"oceanside, CA","anaheim, CA",225,136.364
+Car,0,1,"sylmar, CA","santa clara, CA",200,338.983
+Car,0,1,"colton, CA","anaheim, CA",75,39.0625
+SUV,0,1,"san diego, CA","gardena, CA",125,104.167
+Car,0,1,"mountain view, CA","playa vista, CA",250,352.113
+Car,0,1,"fremont, CA","santa ana, CA",175,388.889
+Car,1,1,"fontana, CA","anaheim, CA",75,35.0467
+Van,0,1,"sonoma, CA","sacramento, CA",225,78.125
+SUV,0,1,"costa mesa, CA","placentia, CA",60,18.9873
+SUV,0,1,"el monte, CA","sacramento, CA",250,390.625
+"Car, Car, SUV",1,3,"fontana, CA","long beach, CA",240,180.451
+Sedan Midsize,0,1,"san jose, CA","san diego, CA",200,444.444
+Car,1,1,"san diego, CA","anaheim, CA",150,111.94
+SUV,0,1,"los angeles, CA","san jose, CA",225,346.154
+Pickup,1,1,"colton, CA","perris, CA",150,25.9965
+SUV,0,1,"atascadero, CA","long beach, CA",300,238.095
+Car,0,1,"canoga park, CA","long beach, CA",125,49.0196
+Car,0,1,"los angeles, CA","sacramento, CA",190,387.755
+"SUV, SUV, SUV",0,3,"folsom, CA","hayward, CA",255,369.565
+"Car, Car, Car, Car, Car",0,5,"riverside, CA","oxnard, CA",325,590.909
+Pickup,0,1,"carlsbad, CA","long beach, CA",300,75.9494
+SUV,0,1,"bellflower, CA","san francisco, CA",250,403.226
+Car,0,1,"paramount, CA","woodland hills, CA",85,42.0792
+"Car, SUV",0,2,"tracy, CA","modesto, CA",110,79.7101
+"Car, Car",0,2,"north hollywood, CA","carson, CA",150,73.8916
+SUV,1,1,"carmichael, CA","santa fe springs, CA",200,408.163
+Car,0,1,"sacramento, CA","corona, CA",200,444.444
+Car,0,1,"santa ana, CA","fontana, CA",85,46.9613
+Car,0,1,"Fresno, CA","San Diego, CA",200,338.983
+Pickup,1,1,"bay point, CA","fontana, CA",300,410.959
+Car,0,1,"encinitas, CA","anaheim, CA",100,75.188
+SUV,0,1,"pleasanton, CA","murrieta, CA",225,424.528
+Pickup,0,1,"elk grove, CA","pleasanton, CA",150,81.0811
+Pickup,0,1,"colton, CA","gardena, CA",125,66.8449
+Car,0,1,"sacramento, CA","paramount, CA",300,410.959
+SUV,0,1,"hayward, CA","sacramento, CA",100,102.041
+SUV Small,0,1,"hanford, CA","long beach, CA",200,222.222
+SUV,0,1,"san jose, CA","mission viejo, CA",175,388.889
+Car,0,1,"greenbrae, CA","oakland, CA",125,21.0084
+SUV,0,1,"sacramento, CA","chula vista, CA",200,512.821
+Car,0,1,"healdsburg, CA","laguna hills, CA",400,493.827
+Pickup,0,1,"martinez, CA","fresno, CA",120,187.5
+SUV,1,1,"davenport, CA","santa cruz, CA",75,12.9983
+"Car, Car",0,2,"corona, CA","thousand oaks, CA",140,184.211
+SUV,1,1,"north hollywood, CA","anaheim, CA",100,52.0833
+Car,1,1,"pittsburg, CA","long beach, CA",175,406.977
+Car,1,1,"hayward, CA","paramount, CA",175,380.435
+Car,1,1,"pittsburg, CA","anaheim, CA",250,396.825
+Car,0,1,"riverside, CA","bakersfield, CA",135,146.739
+Car,0,1,"national city, CA","ontario, CA",100,112.36
+Car,0,1,"upland, CA","san diego, CA",100,108.696
+Car,1,1,"gardena, CA","carson, CA",50,8
+Car,0,1,"fremont, CA","north hollywood, CA",175,343.137
+Car,0,1,"colton, CA","carson, CA",75,65.7895
+Car,1,1,"hayward, CA","carson, CA",175,380.435
+Car,0,1,"fontana, CA","carson, CA",95,60.1266
+Car,0,1,"tracy, CA","santa ana, CA",150,357.143
+Car,0,1,"long beach, CA","anaheim hills, CA",125,31.9693
+SUV,0,1,"la jolla, CA","eureka, CA",500,757.576
+Car,0,1,"fontana, CA","hayward, CA",200,400
+Car,1,1,"fremont, CA","long beach, CA",175,388.889
+"Car, Car, Car",0,3,"wilmington, CA","corte madera, CA",700,1250
+Pickup,0,1,"hawthorne, CA","south san francisco, CA",400,396.04
+"Car, Car",1,2,"riverside, CA","gardena, CA",175,112.179
+Car,0,1,"roseville, CA","sparks, NV",425,120.056
+Car,0,1,"los angeles, CA","roseville, CA",190,413.043
+Car,0,1,"san leandro, CA","modesto, CA",55,69.6203
+Van,0,1,"south san francisco, CA","menifee, CA",275,466.102
+Car,0,1,"san diego, CA","sunnyvale, CA",225,468.75
+Car,0,1,"sonoma, CA","valencia, CA",225,375
+Car,0,1,"van nuys, CA","anaheim, CA",75,40.9836
+Car,0,1,"west covina, CA","fresno, CA",135,245.455
+Car,1,1,"upland, CA","spring valley, CA",175,125.899
+Pickup,0,1,"arcata, CA","richmond, CA",375,273.723
+SUV,0,1,"salinas, CA","porterville, CA",175,218.75
+Other,0,1,"pacheco, CA","tracy, CA",200,57.971
+Pickup,1,1,"san martin, CA","los angeles, CA",250,316.456
+Car,0,1,"santa rosa, CA","los angeles, CA",400,434.783
+Car,0,1,"moreno valley, CA","upland, CA",75,41.8994
+Van,0,1,"hayward, CA","el monte, CA",200,377.358
+Car,0,1,"paso robles, CA","carson, CA",250,225.225
+Pickup,0,1,"santa fe springs, CA","sacramento, CA",275,410.448
+Car,0,1,"fresno, CA","long beach, CA",150,241.935
+"Car, SUV",0,2,"san diego, CA","la habra, CA",225,212.264
+Car,0,1,"fair oaks, CA","paramount, CA",325,416.667
+Car,0,1,"sonoma, CA","compton, CA",225,424.528
+Car,0,1,"sacramento, CA","duarte, CA",175,388.889
+Van,0,1,"petaluma, CA","san jose, CA",150,93.1677
+SUV,1,1,"sacramento, CA","commerce, CA",175,397.727
+SUV,0,1,"la mirada, CA","oxnard, CA",100,78.125
+Car,0,1,"los angeles, CA","modesto, CA",200,322.581
+Car,0,1,"los angeles, CA","san diego, CA",150,131.579
+Car,0,1,"alhambra, CA","valencia, CA",200,45.045
+Car,0,1,"riverside, CA","pleasanton, CA",200,400
+Pickup,0,1,"carson, CA","carmichael, CA",240,413.793
+Car,1,1,"roseville, CA","richmond, CA",125,94.697
+Pickup,1,1,"pittsburg, CA","anaheim, CA",200,400
+Car,0,1,"riverside, CA","san leandro, CA",250,416.667
+Car,0,1,"fremont, CA","sacramento, CA",90,112.5
+Pickup,0,1,"hayward, CA","los angeles, CA",175,372.34
+Car,0,1,"oroville, CA","hayward, CA",110,177.419
+Car,0,1,"rio linda, CA","valencia, CA",200,363.636
+"Car, Car",0,2,"national city, CA","ontario, CA",150,223.881
+Pickup,0,1,"riverside, CA","compton, CA",75,53.9568
+Car,1,1,"sun valley, CA","clayton, CA",400,338.983
+Car,0,1,"torrance, CA","los angeles, CA",150,18.0072
+Pickup,0,1,"santa ana, CA","placentia, CA",50,15.9744
+Car,0,1,"palm springs, CA","anaheim, CA",150,88.7574
+Car,0,1,"gardena, CA","fresno, CA",175,243.056
+Car,0,1,"rancho cordova, CA","anaheim, CA",200,425.532
+"Car, Car, Car, SUV, SUV",0,5,"riverside, CA","oxnard, CA",325,590.909
+Car,0,1,"san luis obispo, CA","ontario, CA",175,239.726
+Van,0,1,"fremont, CA","la puente, CA",175,372.34
+"Van, Van",1,2,"concord, CA","richmond, CA",200,51.9481
+Car,0,1,"fresno, CA","valencia, CA",125,195.312
+Car,0,1,"fontana, CA","carson, CA",75,60
+Car,0,1,"riverside, CA","sacramento, CA",190,431.818
+Car,0,1,"santa monica, CA","murrieta, CA",100,94.3396
+Car,0,1,"san jose, CA","modesto, CA",55,85.9375
+Car,0,1,"monterey park, CA","bakersfield, CA",100,106.383
+Car,0,1,"brisbane, CA","san diego, CA",400,500
+"Car, Car, SUV, SUV, SUV",0,5,"mira loma, CA","oxnard, CA",275,539.216
+Car,0,1,"fontana, CA","menlo park, CA",250,403.226
+Car,0,1,"napa, CA","fremont, CA",250,85.034
+Pickup,0,1,"fontana, CA","santa clara, CA",250,390.625
+"Car, Car, Car, SUV",0,4,"modesto, CA","pleasanton, CA",220,220
+Car,0,1,"oakland, CA","santa ana, CA",200,400
+Car,0,1,"ontario, CA","santa maria, CA",190,204.301
+"Car, Car, Car, Car",0,4,"murrieta, CA","san francisco, CA",1100,1833.33
+SUV,0,1,"fremont, CA","commerce, CA",200,370.37
+"2 Car, SUV",0,2,"sausalito, CA","newark, CA",300,162.162
+SUV,0,1,"cathedral city, CA","city of industry, CA",150,93.1677
+SUV Mid-size,1,1,"turlock, CA","oakland, CA",200,94.7867
+Pickup,0,1,"rancho cucamonga, CA","santa ana, CA",75,46.0123
+Car,0,1,"sacramento, CA","anaheim, CA",200,416.667
+SUV,0,1,"Fremont, CA","Sacramento, CA",55,110
+Pickup,0,1,"san diego, CA","union city, CA",335,485.507
+Car,1,1,"anaheim, CA","san diego, CA",125,112.613
+Other,0,1,"santa maria, CA","martinez, CA",400,287.77
+Car,1,1,"fremont, CA","van nuys, CA",200,350.877
+Car,0,1,"rancho cordova, CA","carson, CA",175,416.667
+Car,0,1,"richmond, CA","port hueneme, CA",250,396.825
+Car,0,1,"rancho cordova, CA","wilmington, CA",170,414.634
+Car,0,1,"eureka, CA","roseville, CA",375,326.087
+Car,0,1,"los angeles, CA","modesto, CA",200,317.46
+Car,0,1,"novato, CA","sacramento, CA",100,81.3008
+Pickup,1,1,"anaheim, CA","montebello, CA",50,24.0385
+Car,0,1,"colton, CA","long beach, CA",70,70.7071
+Car,0,1,"gardena, CA","bakersfield, CA",150,123.967
+Car,1,1,"san martin, CA","gardena, CA",175,330.189
+Car,0,1,"pittsburg, CA","oakland, CA",125,31.0174
+Pickup,1,1,"los angeles, CA","long beach, CA",60,20
+Van,0,1,"san diego, CA","bloomington, CA",100,98.0392
+Sedan Midsize,0,1,"chula vista, CA","arcata, CA",650,783.133
+SUV,0,1,"stockton, CA","modesto, CA",55,28.0612
+Car,1,1,"bakersfield, CA","gardena, CA",125,122.549
+Pickup,1,1,"fontana, CA","gardena, CA",75,59.0551
+SUV,0,1,"riverside, CA","bakersfield, CA",90,145.161
+SUV,1,1,"fresno, CA","gardena, CA",150,238.095
+Pickup,0,1,"West Sacramento, CA","Hayward, CA",85,100
+Car,1,1,"fremont, CA","wilmington, CA",200,384.615
+Car,0,1,"los angeles, CA","ontario, CA",50,43.8596
+SUV,0,1,"los angeles, CA","sacramento, CA",200,377.358
+Car,0,1,"san diego, CA","fresno, CA",250,362.319
+SUV,0,1,"san diego, CA","tulare, CA",200,289.855
+Car,0,1,"la crescenta, CA","chico, CA",400,470.588
+Car,0,1,"sacramento, CA","la puente, CA",175,397.727
+Car,0,1,"santa cruz, CA","richmond, CA",200,88.8889
+2 Vehicles,0,1,"la puente, CA","pacoima, CA",250,79.8722
+Car,0,1,"san jose, CA","bass lake, CA",550,183.946
+SUV,0,1,"thousand oaks, CA","bakersfield, CA",80,111.111
+Car,0,1,"gardena, CA","fresno, CA",175,239.726
+Car,0,1,"san bernardino, CA","van nuys, CA",100,76.9231
+"Car, Car, Car",0,3,"martinez, CA","sacramento, CA",200,238.095
+"Car, Car",0,2,"hayward, CA","south san francisco, CA",200,57.971
+SUV,0,1,"gardena, CA","fresno, CA",200,232.558
+Car,0,1,"murrieta, CA","campbell, CA",250,416.667
+Car,0,1,"costa mesa, CA","san jose, CA",250,378.788
+Car,0,1,"morgan hill, CA","murrieta, CA",250,396.825
+SUV,0,1,"atascadero, CA","santa fe springs, CA",175,236.486
+Other,0,1,"colfax, CA","reno, NV",140,92.7152
+SUV,0,1,"folsom, CA","hayward, CA",85,123.188
+"SUV, SUV",0,2,"oceanside, CA","montebello, CA",200,168.067
+Car,0,1,"poway, CA","south san francisco, CA",350,507.246
+Pickup,0,1,"fontana, CA","sunnyvale, CA",225,394.737
+"SUV, SUV, SUV",0,3,"fontana, CA","oxnard, CA",195,325
+Car,0,1,"fremont, CA","bay point, CA",150,50
+Car,0,1,"mira loma, CA","port hueneme, CA",125,108.696
+Car,0,1,"rohnert park, CA","compton, CA",175,437.5
+Car,0,1,"van nuys, CA","oakland, CA",175,350
+Car,0,1,"fontana, CA","rancho cordova, CA",200,434.783
+Car,0,1,"riverside, CA","hayward, CA",225,416.667
+Car,0,1,"berkeley, CA","san diego, CA",350,492.958
+Car,0,1,"fontana, CA","los altos, CA",250,396.825
+Car,0,1,"lakewood, CA","compton, CA",75,10
+Car,0,1,"gardena, CA","los angeles, CA",60,20.979
+Car,1,1,"san martin, CA","sun valley, CA",175,301.724
+"Van, Van",0,2,"oakland, CA","riverside, CA",600,845.07
+"Pickup, Pickup",0,2,"mira loma, CA","costa mesa, CA",400,87.9121
+Car,0,1,"fontana, CA","sacramento, CA",175,437.5
+Car,0,1,"monterey, CA","phoenix, OR",450,459.184
+Car,0,1,"antelope, CA","hayward, CA",85,116.438
+Car,1,1,"van nuys, CA","pomona, CA",100,48.0769
+Pickup,0,1,"napa, CA","san diego, CA",300,526.316
+"Coupe, Sedan Small, Sedan Small, Sedan Small, Sedan Small, S",0,6,"riverside, CA","sacramento, CA",1100,2682.93
+Car,0,1,"anderson, CA","madera, CA",150,306.122
+"Car, Car",0,2,"anaheim, CA","gardena, CA",120,56.0748
+"Pickup, Pickup, Pickup, Pickup, Pickup, Pickup, Pickup, Pick",0,8,"benicia, CA","livermore, CA",600,394.737
+Car,0,1,"colton, CA","lakeside, CA",100,104.167
+Car,0,1,"bakersfield, CA","van nuys, CA",125,111.607
+Car,0,1,"buena park, CA","chico, CA",350,507.246
+Car,0,1,"gardena, CA","san diego, CA",100,113.636
+SUV,0,1,"oceanside, CA","north highlands, CA",275,491.071
+Car,1,1,"fremont, CA","long beach, CA",100,384.615
+Pickup,0,1,"barstow, CA","martinez, CA",300,400
+"Car, Car, Car, Car, Car, Car, Car",0,7,"hayward, CA","san jose, CA",350,224.359
+Car,0,1,"folsom, CA","brea, CA",200,444.444
+Car,0,1,"santa monica, CA","berkeley, CA",325,373.563
+2 Vehicles,1,1,"san francisco, CA","concord, CA",300,75.9494
+"Car, Car, Car",0,3,"pleasanton, CA","murrieta, CA",600,1276.6
+SUV,1,1,"anaheim, CA","anaheim, CA",75,7.99574
+Car,1,1,"fremont, CA","paramount, CA",175,380.435
+Car,0,1,"north hollywood, CA","san diego, CA",150,126.05
+Pickup Crew Cab,0,1,"merced, CA","fresno, CA",125,60.9756
+Pickup,1,1,"fallbrook, CA","richmond, CA",500,480.769
+"Coupe, Coupe, Coupe",0,3,"livermore, CA","riverside, CA",675,1205.36
+SUV,0,1,"corona, CA","bakersfield, CA",90,155.172
+Car,0,1,"hesperia, CA","los angeles, CA",100,84.7458
+Car,0,1,"sonoma, CA","compton, CA",400,430.108
+Other,1,1,"martinez, CA","paramount, CA",300,389.61
+Car,0,1,"san diego, CA","sausalito, CA",350,514.706
+Car,0,1,"thousand oaks, CA","berkeley, CA",300,389.61
+SUV,0,1,"los angeles, CA","redwood city, CA",250,362.319
+Car,0,1,"walnut creek, CA","oakland, CA",125,18.0115
+SUV,0,1,"bakersfield, CA","visalia, CA",106,82.1705
+10 Van,0,1,"sunnyvale, CA","tracy, CA",501,468.224
+Car,0,1,"san diego, CA","berkeley, CA",400,493.827
+Car,0,1,"van nuys, CA","chico, CA",425,472.222
+Van,1,1,"san jose, CA","sacramento, CA",175,127.737
+Car,0,1,"costa mesa, CA","sacramento, CA",250,431.034
+Pickup,1,1,"rio linda, CA","richmond, CA",125,80.1282
+SUV,0,1,"valencia, CA","stockton, CA",250,312.5
+Pickup,0,1,"pleasanton, CA","shingle springs, CA",175,119.048
+Pickup,1,1,"manteca, CA","newbury park, CA",300,357.143
+Car,0,1,"long beach, CA","murrieta, CA",110,73.8255
+Car,0,1,"kingman, AZ","cerritos, CA",250,333.333
+SUV,0,1,"gardena, CA","fresno, CA",175,233.333
+Pickup,0,1,"san diego, CA","fremont, CA",350,460.526
+Car,0,1,"monterey, CA","oakland, CA",225,113.065
+Other,1,1,"salinas, CA","san jose, CA",115,56.0976
+Car,1,1,"los angeles, CA","wilmington, CA",80,16.9851
+Other,1,1,"dublin, CA","hayward, CA",75,17.0068
+Car,0,1,"norco, CA","oakland, CA",175,416.667
+"Car, Car, SUV, SUV",0,4,"riverside, CA","fresno, CA",540,1125
+"Car, Car, Car, Car",0,4,"san diego, CA","los angeles, CA",300,500
+SUV,0,1,"el portal, CA","monterey, CA",500,185.185
+Car,0,1,"gardena, CA","irvine, CA",70,33.9806
+Pickup,0,1,"gardnerville, NV","oakland, CA",500,204.082
+SUV,0,1,"westlake village, CA","escondido, CA",200,149.254
+Other,1,1,"oakland, CA","san jose, CA",90,42.0561
+SUV,0,1,"hayward, CA","chula vista, CA",250,490.196
+Other,0,1,"yermo, CA","fortuna, CA",400,655.738
+Van,0,1,"los angeles, CA","santa clara, CA",300,344.828
+Sedan Midsize,0,1,"alameda, CA","san diego, CA",350,479.452
+Pickup,0,1,"coronado, CA","citrus heights, CA",425,531.25
+"Car, Car, Car, Car",0,4,"riverside, CA","bakersfield, CA",340,607.143
+Car,1,1,"placerville, CA","columbia, CA",150,78.125
+Van,0,1,"elk grove, CA","hayward, CA",85,106.25
+SUV,0,1,"san ramon, CA","san francisco, CA",100,37.037
+Car,0,1,"fremont, CA","long beach, CA",175,380.435
+Car,1,1,"vallejo, CA","sun valley, CA",200,370.37
+"Pickup, Pickup",0,2,"escondido, CA","wilmington, CA",575,208.333
+Car,0,1,"fresno, CA","fresno, CA",40,12.987
+Car,0,1,"gardena, CA","temecula, CA",125,93.985
+SUV,0,1,"orange, CA","elk grove, CA",250,403.226
+Pickup,0,1,"fontana, CA","san jose, CA",350,384.615
+Van,0,1,"la puente, CA","hayward, CA",300,384.615
+Car,0,1,"gardena, CA","thousand oaks, CA",80,51.9481
+Pickup,1,1,"san diego, CA","milpitas, CA",450,468.75
+SUV,0,1,"fresno, CA","duarte, CA",150,223.881
+"Car, Car, Car, SUV, SUV",0,5,"tracy, CA","modesto, CA",275,199.275
+Car,0,1,"martinez, CA","san bernardino, CA",175,426.829
+Car,0,1,"colton, CA","pomona, CA",80,34.0426
+Car,0,1,"fremont, CA","huntington beach, CA",200,392.157
+Car,1,1,"gardena, CA","san diego, CA",100,117.647
+"Car, Car",0,2,"santa clara, CA","corona, CA",320,800
+Car,0,1,"sacramento, CA","fremont, CA",95,111.765
+Car,0,1,"sacramento, CA","rocklin, CA",100,17.9856
+"Car, Car, Car",0,3,"fremont, CA","tracy, CA",300,132.159
+Car,0,1,"carson, CA","san diego, CA",150,115.385
+Car,0,1,"gardena, CA","nipomo, CA",225,190.678
+"Car, Car, Van, Van, Van",0,5,"tracy, CA","modesto, CA",275,199.275
+Car,0,1,"westlake village, CA","hayward, CA",300,375
+"Car, Car, Car, Car, Car, Car, Car, Pickup, Van",0,9,"oceanside, CA","santa clara, CA",1600,3902.44
+Car,0,1,"san francisco, CA","pomona, CA",225,409.091
+Car,1,1,"san diego, CA","commerce, CA",100,128.205
+"Car, Car, Car, Car, Car, Car, SUV, SUV, Van",0,9,"riverside, CA","oxnard, CA",495,1076.09
+Van,0,1,"san jose, CA","richmond, CA",150,59.0551
+Car,0,1,"bay point, CA","valencia, CA",200,333.333
+Car,0,1,"santa clara, CA","huntington beach, CA",200,377.358
+Heavy Equipment,1,1,"santa rosa, CA","tracy, CA",450,108.959
+Car,0,1,"san leandro, CA","arcadia, CA",350,372.34
+SUV,1,1,"sacramento, CA","carlsbad, CA",250,471.698
+Car,0,1,"atascadero, CA","compton, CA",250,233.645
+"Car, Car",0,2,"los angeles, CA","berkeley, CA",650,755.814
+SUV,0,1,"anaheim, CA","santa fe springs, CA",50,15.9744
+Car,0,1,"huntington beach, CA","gardena, CA",145,23.0159
+Car,1,1,"hayward, CA","fontana, CA",200,408.163
+Pickup Small,0,1,"reno, NV","chico, CA",280,161.85
+Pickup,0,1,"stockton, CA","chino hills, CA",300,375
+Car,0,1,"long beach, CA","la jolla, CA",150,104.167
+Car,0,1,"fontana, CA","long beach, CA",65,63.7255
+SUV,1,1,"martinez, CA","sacramento, CA",120,80
+SUV,0,1,"gardena, CA","stanford, CA",250,373.134
+Car,0,1,"rancho cordova, CA","long beach, CA",200,408.163
+Car,0,1,"gardena, CA","del mar, CA",100,98.0392
+Car,0,1,"fresno, CA","bakersfield, CA",150,120
+Pickup,0,1,"fremont, CA","anaheim, CA",175,388.889
+Pickup,0,1,"newark, CA","union city, CA",150,6.99953
+SUV,0,1,"reno, NV","oakland, CA",350,218.75
+SUV,0,1,"cerritos, CA","bakersfield, CA",90,118.421
+Van,0,1,"fontana, CA","chico, CA",500,520.833
+Car,0,1,"eureka, CA","roseville, CA",350,327.103
+Car,0,1,"anaheim, CA","hayward, CA",220,392.857
+SUV,0,1,"los angeles, CA","stockton, CA",200,350.877
+Car,0,1,"san diego, CA","sunnyvale, CA",425,461.957
+Car,0,1,"sebastopol, CA","huntington beach, CA",200,465.116
+SUV,1,1,"sacramento, CA","los angeles, CA",160,390.244
+Pickup,0,1,"la mesa, CA","lynwood, CA",200,122.699
+Car,0,1,"anaheim, CA","antioch, CA",226,376.667
+Car,0,1,"irvine, CA","elk grove, CA",200,408.163
+Car,0,1,"pasadena, CA","san jose, CA",200,338.983
+Car,1,1,"anaheim, CA","gardena, CA",90,32.0285
+Car,1,1,"san diego, CA","duarte, CA",125,143.678
+Car,0,1,"valencia, CA","riverside, CA",80,91.954
+Car,0,1,"San Diego, CA","Bakersfield, CA",118,214.545
+Car,0,1,"san martin, CA","sacramento, CA",150,141.509
+Pickup,0,1,"paramount, CA","burlingame, CA",475,395.833
+Pickup,0,1,"san diego, CA","san jose, CA",350,466.667
+"Car, Car",0,2,"corona, CA","thousand oaks, CA",134,183.562
+Car,0,1,"novato, CA","chico, CA",250,171.233
+Car,0,1,"san carlos, CA","paso robles, CA",200,183.486
+Pickup,0,1,"lemoore, CA","fullerton, CA",125,227.273
+Car,0,1,"escondido, CA","san jose, CA",250,462.963
+SUV,0,1,"bellflower, CA","mcclellan, CA",225,416.667
+SUV,0,1,"sylmar, CA","santa clara, CA",200,338.983
+Other,0,1,"twentynine palms, CA","norwalk, CA",145,138.095
+"Van, Van, Van, Van, Van, Van, Van, Van",0,8,"hayward, CA","sacramento, CA",1320,857.143
+Car,0,1,"upland, CA","ventura, CA",100,107.527
+"Car, Car, Car, SUV, SUV",0,5,"riverside, CA","bakersfield, CA",425,923.913
+Car,1,1,"san diego, CA","duarte, CA",150,144.231
+Car,0,1,"santa clara, CA","los angeles, CA",175,343.137
+"Car, Car, SUV, SUV",0,4,"riverside, CA","corte madera, CA",1050,1779.66
+"SUV, SUV",0,2,"mira loma, CA","montebello, CA",140,80
+Pickup,0,1,"lemoore, CA","riverside, CA",125,255.102
+Car,1,1,"bay point, CA","north highlands, CA",100,83.3333
+SUV,0,1,"anaheim, CA","north highlands, CA",200,434.783
+Pickup,0,1,"oceanside, CA","sacramento, CA",350,486.111
+SUV,0,1,"medford, OR","commerce, CA",400,701.754
+Car,0,1,"north hollywood, CA","richmond, CA",275,366.667
+SUV,1,1,"fremont, CA","carson, CA",175,372.34
+Car,0,1,"riverside, CA","port hueneme, CA",125,121.359
+Car,0,1,"stockton, CA","palm desert, CA",300,476.19
+Car,0,1,"la verne, CA","santa clara, CA",200,370.37
+Van,0,1,"corona, CA","long beach, CA",80,55.1724
+Car,0,1,"van nuys, CA","san jose, CA",250,328.947
+SUV,0,1,"west hollywood, CA","bakersfield, CA",200,112.994
+SUV,0,1,"san diego, CA","gardena, CA",140,110.236
+Car,0,1,"newark, CA","richmond, CA",125,35.014
+Sedan Small,0,1,"san diego, CA","arcata, CA",650,773.81
+Car,1,1,"orange, CA","bakersfield, CA",80,140.351
+Car,0,1,"fontana, CA","port hueneme, CA",125,110.619
+Car,0,1,"san diego, CA","gardena, CA",100,107.527
+Car,0,1,"north hollywood, CA","anaheim, CA",100,52.0833
+Other,0,1,"torrance, CA","santa clara, CA",190,358.491
+Car,0,1,"rosemead, CA","sacramento, CA",300,400
+Pickup,1,1,"vallejo, CA","sacramento, CA",120,64.8649
+SUV,1,1,"escondido, CA","santa fe springs, CA",150,90.9091
+Car,1,1,"rancho cucamonga, CA","anaheim, CA",75,33.9367
+Car,0,1,"san diego, CA","rancho cordova, CA",250,520.833
+"Van, Van",0,2,"irvine, CA","el segundo, CA",300,95.8466
+Car,0,1,"clovis, CA","valencia, CA",125,204.918
+SUV,0,1,"glendale, CA","palo alto, CA",275,352.564
+Car,0,1,"los angeles, CA","escondido, CA",100,123.457
+SUV,0,1,"san jose, CA","monterey park, CA",300,340.909
+Coupe,0,1,"livermore, CA","seaside, CA",175,106.707
+Car,0,1,"simi valley, CA","long beach, CA",125,57.8704
+SUV,1,1,"martinez, CA","carson, CA",175,388.889
+SUV,0,1,"gardena, CA","oxnard, CA",100,71.9424
+Other,1,1,"camp pendleton, CA","tehachapi, CA",240,196.721
+Car,0,1,"martinez, CA","w sacramento, CA",100,74.0741
+Car,0,1,"san diego, CA","rancho cordova, CA",300,500
+Car,0,1,"gardena, CA","anaheim, CA",75,32.0513
+Pickup,0,1,"gardnerville, NV","reno, NV",300,51.9931
+SUV,0,1,"woodland hills, CA","stockton, CA",250,342.466
+Sedan Midsize,0,1,"hayward, CA","fresno, CA",150,176.471
+Pickup,0,1,"san marcos, CA","wilmington, CA",250,91.9118
+Car,1,1,"hayward, CA","gardena, CA",175,372.34
+Car,0,1,"gardena, CA","san diego, CA",100,112.36
+Other,1,1,"national city, CA","san diego, CA",65,9.00277
+Car,0,1,"newport beach, CA","sun valley, CA",200,58.9971
+Car,0,1,"riverside, CA","tracy, CA",200,377.358
+Car,0,1,"rancho cordova, CA","fontana, CA",200,434.783
+SUV,1,1,"imperial beach, CA","alpine, CA",225,44.0313
+Car,0,1,"san francisco, CA","san diego, CA",250,490.196
+Car,0,1,"fresno, CA","redwood city, CA",160,181.818
+Car,0,1,"long beach, CA","newport beach, CA",100,30.9598
+Car,0,1,"san diego, CA","san jose, CA",250,462.963
+Pickup,0,1,"los gatos, CA","costa mesa, CA",400,384.615
+Car,0,1,"colton, CA","long beach, CA",100,70.922
+Car,1,1,"fremont, CA","san diego, CA",300,491.803
+Car,0,1,"san diego, CA","rio linda, CA",350,514.706
+Car,0,1,"gardena, CA","san diego, CA",125,105.932
+Pickup,0,1,"roseville, CA","hayward, CA",85,118.056
+Car,0,1,"redding, CA","turlock, CA",200,256.41
+Car,0,1,"parker, AZ","los angeles, CA",225,281.25
+Car,0,1,"ukiah, CA","gardena, CA",400,500
+Car,1,1,"anaheim, CA","el cajon, CA",100,109.89
+Car,0,1,"folsom, CA","hayward, CA",85,123.188
+"Car, Car, Car, Car, SUV",0,5,"mira loma, CA","oxnard, CA",300,535.714
+Car,0,1,"paramount, CA","san diego, CA",100,106.383
+Car,0,1,"sacramento, CA","hacienda heights, CA",175,397.727
+Pickup,1,1,"santa paula, CA","montebello, CA",150,87.2093
+"Car, SUV",0,2,"van nuys, CA","long beach, CA",150,78.125
+Car,0,1,"santa fe springs, CA","sunnyvale, CA",250,367.647
+Car,0,1,"gardena, CA","sunnyvale, CA",250,362.319
+Pickup,0,1,"artesia, CA","portola valley, CA",300,379.747
+Car,1,1,"bay point, CA","lynwood, CA",175,380.435
+Car,0,1,"woodbridge, CA","paramount, CA",275,376.712
+Car,1,1,"fremont, CA","carson, CA",200,384.615
+Car,0,1,"encinitas, CA","long beach, CA",150,88.7574
+Car,1,1,"sacramento, CA","long beach, CA",175,406.977
+"Car, SUV",1,2,"riverside, CA","compton, CA",350,115.894
+Car,0,1,"fremont, CA","lake forest, CA",200,400
+Car,1,1,"san diego, CA","anaheim, CA",100,112.36
+SUV,0,1,"west covina, CA","fresno, CA",135,245.455
+SUV,0,1,"beverly hills, CA","fort bragg, CA",400,547.945
+SUV,0,1,"van nuys, CA","bakersfield, CA",80,86.0215
+Car,0,1,"santa maria, CA","sunnyvale, CA",200,227.273
+Van,0,1,"santa rosa, CA","benicia, CA",100,50
+SUV,0,1,"indio, CA","bakersfield, CA",118,222.642
+"Car, Car, Car, Car, Car",0,5,"hayward, CA","modesto, CA",330,343.75
+Car,0,1,"santa fe springs, CA","walnut creek, CA",200,377.358
+Car,0,1,"lake havasu city, AZ","corona, CA",350,265.152
+Car,0,1,"van nuys, CA","lake forest, CA",175,64.1026
+Car,0,1,"las vegas, NV","brea, CA",150,245.902
+SUV,0,1,"sherman oaks, CA","bakersfield, CA",100,87.7193
+Car,0,1,"vallejo, CA","oakland, CA",250,23.9923
+Car,1,1,"san diego, CA","gardena, CA",135,127.358
+SUV,0,1,"santa ana, CA","roseville, CA",250,446.429
+SUV,1,1,"san diego, CA","santa fe springs, CA",125,93.985
+Car,0,1,"rncho cordova, CA","long beach, CA",175,426.829
+Car,0,1,"gardena, CA","los angeles, CA",60,18.9873
+Pickup,1,1,"whittier, CA","simi valley, CA",150,61.9835
+Pickup,0,1,"ventura, CA","long beach, CA",200,78.125
+Car,1,1,"davis, CA","fremont, CA",225,94.9367
+Pickup,0,1,"gardena, CA","fontana, CA",125,58.9623
+Car,0,1,"palm desert, CA","gardena, CA",250,126.904
+SUV,0,1,"costa mesa, CA","lincoln, CA",250,462.963
+Pickup,0,1,"glendale, CA","woodland, CA",350,402.299
+SUV,1,1,"sacramento, CA","downey, CA",175,388.889
+Other,1,1,"vallejo, CA","fremont, CA",85,54.1401
+SUV,0,1,"los angeles, CA","roseville, CA",275,410.448
+Car,0,1,"gardena, CA","rancho cordova, CA",200,416.667
+Car,0,1,"riverside, CA","fresno, CA",135,275.51
+"Car, Car, Car, Car",0,4,"riverside, CA","fresno, CA",540,1125
+Pickup,0,1,"san diego, CA","dixon, CA",350,507.246
+SUV,0,1,"torrance, CA","ventura, CA",200,72.9927
+Car,0,1,"irvine, CA","palo alto, CA",275,392.857
+Car,0,1,"colton, CA","long beach, CA",85,70.8333
+Car,0,1,"modesto, CA","ontario, CA",175,364.583
+SUV,0,1,"west hollywood, CA","ashland, OR",600,674.157
+SUV,0,1,"reno, NV","oakland, CA",300,211.268
+Pickup,0,1,"south el monte, CA","perris, CA",125,60.0962
+SUV,0,1,"los angeles, CA","modesto, CA",225,316.901
+Pickup,0,1,"bakersfield, CA","corona, CA",120,155.844
+"Car, Car, Car",0,3,"pleasanton, CA","fremont, CA",450,42.0168
+"Car, Car",0,2,"ontario, CA","fresno, CA",380,520.548
+Van,0,1,"los angeles, CA","half moon bay, CA",200,370.37
+Van,0,1,"oakland, CA","la mesa, CA",350,492.958
+"Car, Car, Car",0,3,"fontana, CA","garden grove, CA",255,140.884
+Car,0,1,"carlsbad, CA","petaluma, CA",325,507.812
+Car,1,1,"gardena, CA","long beach, CA",75,7.99574
+Other,0,1,"lancaster, CA","richmond, CA",400,338.983
+"Car, Car, Car, Car, SUV, SUV, SUV, SUV, SUV",0,9,"mira loma, CA","fresno, CA",1215,2700
+SUV,0,1,"los altos, CA","placentia, CA",175,380.435
+Other,1,1,"sebastopol, CA","hayward, CA",125,82.2368
+Car,0,1,"hayward, CA","studio city, CA",175,350
+Car,0,1,"fontana, CA","rio linda, CA",230,442.308
+Car,1,1,"victorville, CA","ontario, CA",175,50
+Other,0,1,"belmont, CA","vista, CA",450,459.184
+Van,0,1,"fremont, CA","commerce, CA",175,372.34
+Car,0,1,"martinez, CA","el cajon, CA",250,510.204
+Car,0,1,"gardena, CA","mountain view, CA",225,368.852
+Pickup,0,1,"fontana, CA","pleasanton, CA",335,389.535
+Car,0,1,"riverside, CA","hayward, CA",200,416.667
+SUV,0,1,"paramount, CA","south san francisco, CA",250,403.226
+Car,0,1,"fremont, CA","long beach, CA",150,384.615
+Car,1,1,"tracy, CA","carson, CA",200,344.828
+"Pickup, Pickup, Pickup, Pickup, Pickup",0,5,"west sacramento, CA","dunnigan, CA",500,174.825
+Pickup,1,1,"sacramento, CA","sun valley, CA",225,368.852
+Car,0,1,"corona, CA","pleasanton, CA",350,393.258
+Pickup,0,1,"fontana, CA","long beach, CA",75,64.1026
+Car,0,1,"montebello, CA","fresno, CA",160,238.806
+Car,0,1,"hayward, CA","north hollywood, CA",175,350
+Car,0,1,"west sacramento, CA","carson, CA",180,409.091
+Car,0,1,"martinez, CA","laguna niguel, CA",200,425.532
+"Sedan Midsize, Sedan Midsize, SUV Mid-size",0,3,"riverside, CA","sacramento, CA",600,1333.33
+Car,0,1,"sherman oaks, CA","san diego, CA",150,140.187
+Other,1,1,"byron, CA","hayward, CA",90,54.878
+Car,0,1,"riverside, CA","merced, CA",200,333.333
+Car,1,1,"anaheim, CA","gardena, CA",75,32.0513
+Van,0,1,"brea, CA","hayward, CA",350,402.299
+Car,0,1,"fresno, CA","long beach, CA",125,250
+Sedan Large,0,1,"san ramon, CA","san diego, CA",220,468.085
+Pickup,0,1,"mira loma, CA","yorba linda, CA",50,23.0415
+Car,0,1,"ontario, CA","ventura, CA",100,112.36
+Car,0,1,"rancho cordova, CA","anaheim, CA",175,426.829
+Car,0,1,"corona, CA","walnut creek, CA",250,416.667
+SUV Small,0,1,"vallejo, CA","stockton, CA",150,64.1026
+Car,0,1,"glendale, CA","placentia, CA",75,39.0625
+Car,0,1,"long beach, CA","port hueneme, CA",100,71.9424
+SUV,0,1,"hayward, CA","south san francisco, CA",150,29.0135
+Car,1,1,"san diego, CA","van nuys, CA",175,159.091
+Car,0,1,"el monte, CA","stockton, CA",250,357.143
+Pickup,0,1,"lompoc, CA","long beach, CA",225,180
+"Car, Car",0,2,"gardena, CA","gardena, CA",100,4
+Car,0,1,"canoga park, CA","long beach, CA",100,49.0196
+"SUV, SUV",0,2,"van nuys, CA","wilmington, CA",160,78.0488
+Pickup,0,1,"carson, CA","corona, CA",100,48.0769
+Pickup,1,1,"pittsburg, CA","carson, CA",200,377.358
+Car,0,1,"san carlos, CA","san diego, CA",300,476.19
+Van,0,1,"folsom, CA","richmond, CA",175,94.086
+Car,0,1,"oceanside, CA","stanton, CA",100,70.922
+Car,0,1,"riverside, CA","concord, CA",250,423.729
+Car,0,1,"san diego, CA","south san francisco, CA",350,507.246
+Car,0,1,"fresno, CA","fremont, CA",150,180.723
+SUV,0,1,"oceanside, CA","sacramento, CA",350,472.973
+Car,0,1,"oakland, CA","sacramento, CA",55,90.1639
+Car,0,1,"fresno, CA","long beach, CA",150,245.902
+Car,0,1,"madera, CA","hayward, CA",140,150.538
+Car,0,1,"fresno, CA","palo alto, CA",150,164.835
+Pickup,0,1,"santa ana, CA","montebello, CA",50,27.933
+Car,0,1,"gardena, CA","camarillo, CA",100,65.7895
+Car,0,1,"hayward, CA","riverside, CA",250,423.729
+Car,0,1,"monterey, CA","richmond, CA",200,124.224
+Car,0,1,"mira loma, CA","fontana, CA",50,8.99281
+Car,0,1,"newbury park, CA","pleasanton, CA",300,365.854
+"Motorcycle, Motorcycle, Motorcycle, Motorcycle, Motorcycle,",0,6,"poway, CA","carson, CA",850,1465.52
+Car,0,1,"fontana, CA","santa clara, CA",200,392.157
+Pickup,1,1,"san martin, CA","lynwood, CA",200,333.333
+Car,0,1,"hayward, CA","fresno, CA",150,176.471
+"Car, Pickup",0,2,"anaheim, CA","tujunga, CA",150,123.967
+Car,0,1,"santa monica, CA","cathedral city, CA",130,126.214
+SUV,1,1,"sacramento, CA","gardena, CA",180,391.304
+SUV,0,1,"laguna niguel, CA","stockton, CA",250,396.825
+SUV,1,1,"fresno, CA","gardena, CA",150,227.273
+SUV,0,1,"morgan hill, CA","oakland, CA",175,64.1026
+"Pickup Crew Cab, Pickup Crew Cab",0,2,"fontana, CA","fresno, CA",300,545.455
+Pickup,0,1,"north hills, CA","medford, OR",750,675.676
+Car,0,1,"los angeles, CA","modesto, CA",200,333.333
+Car,0,1,"roseville, CA","hayward, CA",85,118.056
+"Car, Car, SUV, SUV, SUV, SUV, SUV, SUV",0,8,"san francisco, CA","riverside, CA",1200,3529.41
+SUV,0,1,"martinez, CA","sacramento, CA",100,80
+SUV,0,1,"north hollywood, CA","modesto, CA",140,311.111
+Car,1,1,"valencia, CA","anaheim, CA",150,70.0935
+Car,0,1,"pittsburg, CA","scotts valley, CA",200,84.0336
+Car,1,1,"san diego, CA","gardena, CA",250,126.904
+"Pickup, Pickup, Pickup",0,3,"san diego, CA","anaheim, CA",300,288.462
+Van,0,1,"santa clara, CA","escondido, CA",225,468.75
+Car,0,1,"san diego, CA","bakersfield, CA",118,226.923
+Car,0,1,"los angeles, CA","bakersfield, CA",85,102.41
+"Car, Car, Car, Car, Car",0,5,"hayward, CA","sacramento, CA",275,518.868
+Van,0,1,"benicia, CA","tracy, CA",125,64.1026
+Car,0,1,"paramount, CA","los angeles, CA",75,23.9617
+Car,0,1,"coronado, CA","port hueneme, CA",175,192.308
+Car,0,1,"van nuys, CA","bakersfield, CA",80,86.0215
+SUV,0,1,"corning, CA","santa monica, CA",400,500
+Car,0,1,"corona, CA","trinity center, CA",700,673.077
+Pickup,0,1,"livermore, CA","fullerton, CA",200,370.37
+Car,0,1,"seaside, CA","rancho mirage, CA",300,441.176
+Car,1,1,"carson, CA","carson, CA",50,8
+SUV,0,1,"valencia, CA","hollister, CA",250,287.356
+Pickup,1,1,"san martin, CA","sun valley, CA",250,301.205
+Car,0,1,"san jose, CA","los angeles, CA",250,333.333
