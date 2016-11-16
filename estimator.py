@@ -53,32 +53,34 @@ def get_unique_vehicles(data_sframe):
     return vehicle_set
 
 
+def convert_vehicles_str_to_weight(vehicles_str):
+    total_weight = 0
+    vehicles_in_str = filter(None, vehicles_str.split(','))
+    for vehicle_str in vehicles_in_str:
+        vehicle_str = vehicle_str.strip()
+        multiplier = 1
+
+        # Handle cases like "2 Car": Figure out multiplier
+        match = re.search('(\d+)\s+(.*)', vehicle_str)
+        if match and len(match.groups()) == 2:
+            # print("Match of %s is broken into %s and %s" % (vehicle_str, match.group(1), match.group(2)))
+            multiplier = int(match.group(1))
+            vehicle_str = match.group(2)
+
+        # Now calculate the weight of the vehicle using multiplier & weight mapping
+        weight_of_vehicle = VEHICLE_TO_WEIGHT.get(vehicle_str.lower())
+        if weight_of_vehicle:
+            # print("Weight of vehicle %s: %s" % (vehicle_str, multiplier * weight_of_vehicle))
+            total_weight += multiplier * weight_of_vehicle
+        else:
+            # If a match is not found in VEHICLE_TO_WEIGHT dict, just return None
+            # print("Weight of %s not found" % vehicle_str)
+            return None
+    # print("Setting total_weight for %s: %s" % (vehicles_str, total_weight))
+    return total_weight
+
+
 def set_total_weight_column(data_sframe):
-    def convert_vehicles_str_to_weight(vehicles_str):
-        total_weight = 0
-        vehicles_in_str = filter(None, vehicles_str.split(','))
-        for vehicle_str in vehicles_in_str:
-            vehicle_str = vehicle_str.strip()
-            multiplier = 1
-
-            # Handle cases like "2 Car": Figure out multiplier
-            match = re.search('(\d+)\s+(.*)', vehicle_str)
-            if match and len(match.groups()) == 2:
-                # print("Match of %s is broken into %s and %s" % (vehicle_str, match.group(1), match.group(2)))
-                multiplier = int(match.group(1))
-                vehicle_str = match.group(2)
-
-            # Now calculate the weight of the vehicle using multiplier & weight mapping
-            weight_of_vehicle = VEHICLE_TO_WEIGHT.get(vehicle_str.lower())
-            if weight_of_vehicle:
-                # print("Weight of vehicle %s: %s" % (vehicle_str, multiplier * weight_of_vehicle))
-                total_weight += multiplier * weight_of_vehicle
-            else:
-                # If a match is not found in VEHICLE_TO_WEIGHT dict, just return None
-                # print("Weight of %s not found" % vehicle_str)
-                return None
-        # print("Setting total_weight for %s: %s" % (vehicles_str, total_weight))
-        return total_weight
 
     data_sframe['total_weight'] = data_sframe['vehicles'].apply(convert_vehicles_str_to_weight)
 
