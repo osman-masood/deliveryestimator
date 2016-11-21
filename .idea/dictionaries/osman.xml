@@ -2,6 +2,8 @@
   <dictionary name="osman">
     <words>
       <w>csrf</w>
+      <w>datasource</w>
+      <w>inprogress</w>
       <w>machinelearning</w>
       <w>permile</w>
       <w>referer</w>

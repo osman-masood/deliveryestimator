@@ -53,7 +53,45 @@ def get_unique_vehicles(data_sframe):
     return vehicle_set
 
 
+def raw_vehicles_str_to_vehicle_type_to_count(vehicles_str):
+    """
+    "(Car, Pickup, 3 SUV)" -> {'car': 1, 'pickup': 1, 'suv': 3}
+
+    :param vehicles_str:
+    :return:
+    """
+    if not vehicles_str:
+        return {}
+
+    # Remove ( and ) chars
+    vehicles_str = vehicles_str.replace('(', '').replace(')', '').lower()
+
+    # Split on comma, remove empties, and strip each one
+    vehicles_in_str = map(str.strip, filter(None, vehicles_str.split(',')))
+
+    vehicle_type_to_count = {}
+    for vehicle_str in vehicles_in_str:
+        multiplier = 1
+
+        # Handle cases like "2 Car": Figure out multiplier
+        match = re.search('(\d+)\s+(.*)', vehicle_str)
+        if match and len(match.groups()) == 2:
+            # print("Match of %s is broken into %s and %s" % (vehicle_str, match.group(1), match.group(2)))
+            multiplier = int(match.group(1))
+            vehicle_str = match.group(2)
+
+        vehicle_type_to_count.setdefault(vehicle_str, 0)
+        vehicle_type_to_count[vehicle_str] += multiplier
+    return vehicle_type_to_count
+
+
 def convert_vehicles_str_to_weight(vehicles_str):
+    if not vehicles_str:
+        return None
+
+    # Remove ( and ) chars
+    vehicles_str = vehicles_str.replace('(', '').replace(')', '').lower()
+
     total_weight = 0
     vehicles_in_str = filter(None, vehicles_str.split(','))
     for vehicle_str in vehicles_in_str:

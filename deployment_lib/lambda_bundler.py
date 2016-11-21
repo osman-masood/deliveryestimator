@@ -1,11 +1,11 @@
 import os
 import subprocess
 import zipfile
-
-import boto3
+import shutil
 import datetime
 
-import shutil
+import boto3
+
 
 LATEST_DEPLOYMENT_FILE_PATH = 'deployments/deployment_latest.zip'
 
@@ -169,13 +169,7 @@ def deploy(lambda_function_names):
 
     for lambda_function_name in lambda_function_names:
         s3_key_path = "{}/{}".format(lambda_function_name, datetime_str)
-
-        print("Uploading file %s to S3 into %s bucket: %s" % (LATEST_DEPLOYMENT_FILE_PATH, s3_bucket, s3_key_path))
-        s3 = boto3.resource('s3')
-        bucket = s3.Bucket(s3_bucket)
-        global total_uploaded_bytes
-        total_uploaded_bytes = 0
-        bucket.upload_file(LATEST_DEPLOYMENT_FILE_PATH, s3_key_path, Callback=s3_upload_callback)
+        upload_to_s3(file_path_in_bucket=s3_key_path)
 
         print('Deploying latest %s to lambda' % lambda_function_name)
         response = lambda_client.update_function_code(
@@ -188,6 +182,15 @@ def deploy(lambda_function_names):
 
 
 total_uploaded_bytes = 0
+
+
+def upload_to_s3(file_path_in_bucket):
+    s3_bucket = "177644182725"
+
+    print("Uploading file %s to S3 into %s bucket: %s" % (LATEST_DEPLOYMENT_FILE_PATH, s3_bucket, file_path_in_bucket))
+    s3 = boto3.resource('s3')
+    bucket = s3.Bucket(s3_bucket)
+    bucket.upload_file(LATEST_DEPLOYMENT_FILE_PATH, file_path_in_bucket)
 
 
 def s3_upload_callback(delta_bytes_uploaded):
