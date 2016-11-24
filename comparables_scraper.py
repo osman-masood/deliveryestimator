@@ -10,12 +10,12 @@ from listings_scraper import CSRF_TOKEN, get_cleaned_listings_column_groups, raw
 
 COMPARABLES_RAW_COLUMNS = ['listingId', 'cargo', 'route', 'price', 'accepted_by_carrier']
 
-COMPARABLES_CLEANED_COLUMNS = ['listingId', 'vehicles', 'vehicleOperable', 'pickup.city', 'pickup.state',
+COMPARABLES_CLEANED_COLUMNS = ['listingId', 'vehicles', 'vehicleOperable', 'numVehicles', 'pickup.city', 'pickup.state',
                                'delivery.city', 'delivery.state', 'truckMiles', 'price', 'price_per_mile'] + \
                               ['rv', 'van', 'travel trailer', 'car', 'atv', 'suv', 'pickup', 'other', 'motorcycle',
                                'heavy equipment', 'boat']
 
-COMBINED_CLEANED_COLUMNS = ['vehicles', 'vehicleOperable', 'pickup.city', 'pickup.state',
+COMBINED_CLEANED_COLUMNS = ['vehicles', 'vehicleOperable', 'numVehicles', 'pickup.city', 'pickup.state',
                             'delivery.city', 'delivery.state', 'truckMiles', 'price', 'price_per_mile'] + \
                            ['rv', 'van', 'travel trailer', 'car', 'atv', 'suv', 'pickup', 'other', 'motorcycle',
                             'heavy equipment', 'boat']
@@ -269,6 +269,19 @@ if __name__ == "__main__":
     # pprint(parse_price_html(PRICES_HTML_EXAMPLE_3))
 
 
+def comparables_raw_price_to_price_and_miles(price_str):
+    matchings = re.match(r"\$([\d.,]+)\s*"  # "$125 "
+                         r"\(\$([\d.]+)"  # "($0.74"
+                         r"\s*/\s*mi\)",  # " / mi)"
+                         price_str, re.IGNORECASE)
+    if not matchings.groups():
+        return None
+    price, price_per_mile = matchings.groups()
+    price = float(price.replace(',', '').strip())
+    miles = float(price / float(price_per_mile.strip()))
+    return price, miles
+
+
 def clean_comparables_csv():
     columns_from_raw_to_write, vehicle_types, computed_fields = get_cleaned_listings_column_groups()
 
@@ -286,15 +299,19 @@ def clean_comparables_csv():
                 cleaned_comparables_dict['vehicles'] = re.sub(r"\(\s+inop\s+\)", "", raw_vehicles_str,
                                                               flags=re.IGNORECASE).strip()
 
+                # Strip off '( encl )' which is rarely there
+                cleaned_comparables_dict['vehicles'] = re.sub(r"\(\s+encl\s+\)", "",
+                                                              cleaned_comparables_dict['vehicles'],
+                                                              flags=re.IGNORECASE).strip()
+
                 # Now from 'vehicles', set car type counts
                 vehicle_type_to_count = raw_vehicles_str_to_vehicle_type_to_count(cleaned_comparables_dict['vehicles'])
                 for vehicle_type in vehicle_types:
                     cleaned_comparables_dict[vehicle_type] = vehicle_type_to_count.get(vehicle_type, 0)
 
-                # Strip off '( encl )' which is rarely there
-                cleaned_comparables_dict['vehicles'] = re.sub(r"\(\s+encl\s+\)", "",
-                                                              cleaned_comparables_dict['vehicles'],
-                                                              flags=re.IGNORECASE).strip()
+                # Compute numVehicles from above
+                cleaned_comparables_dict['numVehicles'] = \
+                    sum([cleaned_comparables_dict[vehicle_type] for vehicle_type in vehicle_types])
 
                 # Get pickup & destination city/state from 'route'
                 route_matchings = re.match(r"(.*),\s*(\w{2})\s+(.*),\s+(\w{2})", raw_comparables_dict['route']).groups()
@@ -305,17 +322,14 @@ def clean_comparables_csv():
                     route_matchings
 
                 # Get price, price_per_mile, and truckMiles from 'price'
-                # Match: $125($0.74 / mi)  or  $200 ($3.13/mi)  or  $1,650 ($0.72/mi)
-                price_matchings = re.match(r"\$([\d.,]+)\s*"  # "$125 "
-                                           r"\(\$([\d.]+)"  # "($0.74"
-                                           r"\s*/\s*mi\)",  # " / mi)"
-                                           raw_comparables_dict['price'], re.IGNORECASE)
-                if not price_matchings or len(price_matchings.groups()) != 2:
-                    raise Exception("2 price matchings not found in: {}".format(raw_comparables_dict))
-                cleaned_comparables_dict['price'], cleaned_comparables_dict['price_per_mile'] = price_matchings.groups()
-                cleaned_comparables_dict['price'] = cleaned_comparables_dict['price'].replace(',', '')
-                cleaned_comparables_dict['truckMiles'] = int(float(cleaned_comparables_dict['price'].strip()) / float(
-                    cleaned_comparables_dict['price_per_mile'].strip()))
+                cleaned_comparables_dict['price'], cleaned_comparables_dict['truckMiles'] = \
+                    comparables_raw_price_to_price_and_miles(raw_comparables_dict['price'])
+                cleaned_comparables_dict['price_per_mile'] = cleaned_comparables_dict['price'] / float(
+                    cleaned_comparables_dict['truckMiles'])
+
+                if cleaned_comparables_dict['truckMiles'] < 10.0 or cleaned_comparables_dict['price'] < 10.0:
+                    print("Invalid raw comparables row, miles or price too low: ", raw_comparables_dict)
+                    continue
 
                 # Write it
                 csv_writer.writerow(cleaned_comparables_dict)

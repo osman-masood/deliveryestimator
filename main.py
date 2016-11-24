@@ -2,7 +2,7 @@ import argparse
 
 import boto3
 
-from analysis import analyze_raw_data_csv
+from analysis import analyze_csv
 from comparables_scraper import crawl_comparables_from_cleaned_data, clean_comparables_csv, \
     combine_cleaned_comparables_and_listings
 from listings_scraper import clean_raw_data
@@ -36,7 +36,7 @@ if args.create_aml_model:
         target_field_name='price_per_mile')
 
 if args.analyze_raw_data:
-    analyze_raw_data_csv()
+    analyze_csv()
 
 if args.crawl_comparables:
     crawl_comparables_from_cleaned_data()

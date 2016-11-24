@@ -162,8 +162,13 @@ def raw_vehicles_str_to_vehicle_type_to_count(vehicles_str):
             multiplier = int(match.group(1))
             vehicle_str = match.group(2)
 
+        # Manual change: From "Sedan" to "car"
+        if "sedan" in vehicle_str:
+            vehicle_str = "car"
+
         vehicle_type_to_count.setdefault(vehicle_str, 0)
         vehicle_type_to_count[vehicle_str] += multiplier
+
     return vehicle_type_to_count
 
 

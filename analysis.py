@@ -6,7 +6,7 @@ import numpy
 from listings_scraper import get_cleaned_listings_column_groups
 
 
-def analyze_raw_data_csv():
+def analyze_csv():
     """
     Analyzes rawdata.csv (output of scraping CentralDispatch) and prints results.
 
@@ -32,7 +32,7 @@ def analyze_raw_data_csv():
     # TODO look at average price per mile in each state. Does it differ?
 
     col_name_to_value_to_count = {
-        'comparable': {},
+        # 'comparable': {},
         'numVehicles': {},
         'vehicleOperable': {},
         'vehicles': {},
@@ -48,7 +48,7 @@ def analyze_raw_data_csv():
     columns_from_raw_to_write, vehicle_types, computed_fields = get_cleaned_listings_column_groups()
     columns_to_write = columns_from_raw_to_write + vehicle_types + computed_fields
 
-    with open('csv_files/cleaned_listings.csv', 'rb') as csvfile:
+    with open('csv_files/cleaned_combined.csv', 'rb') as csvfile:
         csv_reader = csv.DictReader(csvfile, fieldnames=columns_to_write)
         for row in csv_reader:
             for col_name in col_name_to_value_to_count.keys():
