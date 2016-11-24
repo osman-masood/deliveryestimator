@@ -19,7 +19,7 @@ from deployment_lib.lambda_bundler import (
 
 DEPLOYMENT_FILES = [
     'main_graphlab.py',
-    'estimator.py',
+    'graphlab_estimator.py',
     'sframes',
     'CA-2016-11-09.comparable.csv',
     'CA-2016-11-09.request.csv'

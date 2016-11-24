@@ -1,6 +1,6 @@
 import logging
 
-from estimator import estimate_price, load_symbol_historical_data, set_total_weight_column
+from graphlab_estimator import estimate_price, load_symbol_historical_data, set_total_weight_column
 
 logger = logging.getLogger()
 

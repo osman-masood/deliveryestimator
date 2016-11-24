@@ -1,44 +1,12 @@
 import graphlab
-import re
+
+from listings_scraper import convert_vehicles_str_to_weight
 
 """
 Graphlab license:
 osman@berkeley.edu
 8AF4-0201-9286-9731-83EA-4F5E-4DC7-94DC
 """
-
-VEHICLE_TO_WEIGHT = {
-    'van mini': 4300,
-    'van': 4500,
-    'van full-size': 5390,
-
-    'motorcycle': 651,
-
-    'convertible': 2979,
-    'coupe': 3400,
-
-    'vehicles': 3497,
-    'car': 3497,
-    'sedan small': 2979,
-    's': 3497,
-    # 'other': 3497,
-    'sedan': 3497,
-    'sedan midsize': 3497,
-    'sedan large': 4366,
-
-    'suv': 4259,
-    'suv small': 3470,
-    'suv mid-size': 4259,
-    'suv large': 5411,
-
-    'pick': 6000,
-    'pickup': 6000,
-    'pickup small': 5000,
-    'pickup crew cab': 5000,  # ?
-
-    'heavy equipment': 3000,
-    'boat': 3000
-}
 
 
 def get_unique_vehicles(data_sframe):
@@ -53,73 +21,7 @@ def get_unique_vehicles(data_sframe):
     return vehicle_set
 
 
-def raw_vehicles_str_to_vehicle_type_to_count(vehicles_str):
-    """
-    "(Car, Pickup, 3 SUV)" -> {'car': 1, 'pickup': 1, 'suv': 3}
-
-    :param vehicles_str:
-    :return:
-    """
-    if not vehicles_str:
-        return {}
-
-    # Remove ( and ) chars
-    vehicles_str = vehicles_str.replace('(', '').replace(')', '').lower()
-
-    # Split on comma, remove empties, and strip each one
-    vehicles_in_str = map(str.strip, filter(None, vehicles_str.split(',')))
-
-    vehicle_type_to_count = {}
-    for vehicle_str in vehicles_in_str:
-        multiplier = 1
-
-        # Handle cases like "2 Car": Figure out multiplier
-        match = re.search('(\d+)\s+(.*)', vehicle_str)
-        if match and len(match.groups()) == 2:
-            # print("Match of %s is broken into %s and %s" % (vehicle_str, match.group(1), match.group(2)))
-            multiplier = int(match.group(1))
-            vehicle_str = match.group(2)
-
-        vehicle_type_to_count.setdefault(vehicle_str, 0)
-        vehicle_type_to_count[vehicle_str] += multiplier
-    return vehicle_type_to_count
-
-
-def convert_vehicles_str_to_weight(vehicles_str):
-    if not vehicles_str:
-        return None
-
-    # Remove ( and ) chars
-    vehicles_str = vehicles_str.replace('(', '').replace(')', '').lower()
-
-    total_weight = 0
-    vehicles_in_str = filter(None, vehicles_str.split(','))
-    for vehicle_str in vehicles_in_str:
-        vehicle_str = vehicle_str.strip()
-        multiplier = 1
-
-        # Handle cases like "2 Car": Figure out multiplier
-        match = re.search('(\d+)\s+(.*)', vehicle_str)
-        if match and len(match.groups()) == 2:
-            # print("Match of %s is broken into %s and %s" % (vehicle_str, match.group(1), match.group(2)))
-            multiplier = int(match.group(1))
-            vehicle_str = match.group(2)
-
-        # Now calculate the weight of the vehicle using multiplier & weight mapping
-        weight_of_vehicle = VEHICLE_TO_WEIGHT.get(vehicle_str.lower())
-        if weight_of_vehicle:
-            # print("Weight of vehicle %s: %s" % (vehicle_str, multiplier * weight_of_vehicle))
-            total_weight += multiplier * weight_of_vehicle
-        else:
-            # If a match is not found in VEHICLE_TO_WEIGHT dict, just return None
-            # print("Weight of %s not found" % vehicle_str)
-            return None
-    # print("Setting total_weight for %s: %s" % (vehicles_str, total_weight))
-    return total_weight
-
-
 def set_total_weight_column(data_sframe):
-
     data_sframe['total_weight'] = data_sframe['vehicles'].apply(convert_vehicles_str_to_weight)
 
 
