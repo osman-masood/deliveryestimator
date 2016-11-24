@@ -3,6 +3,7 @@ from pprint import pprint
 
 import numpy
 
+from comparables_scraper import COMBINED_CLEANED_COLUMNS
 from listings_scraper import get_cleaned_listings_column_groups
 
 
@@ -45,11 +46,8 @@ def analyze_csv():
     # For every 'vehicles' type, get the average price/mile, along with standard deviation
     vehicles_and_states_to_ppm_ratios = {}
 
-    columns_from_raw_to_write, vehicle_types, computed_fields = get_cleaned_listings_column_groups()
-    columns_to_write = columns_from_raw_to_write + vehicle_types + computed_fields
-
     with open('csv_files/cleaned_combined.csv', 'rb') as csvfile:
-        csv_reader = csv.DictReader(csvfile, fieldnames=columns_to_write)
+        csv_reader = csv.DictReader(csvfile, fieldnames=COMBINED_CLEANED_COLUMNS)
         for row in csv_reader:
             for col_name in col_name_to_value_to_count.keys():
                 col_name_to_value_to_count[col_name].setdefault(row[col_name], 0)
@@ -61,7 +59,11 @@ def analyze_csv():
             try:
                 key = "{}_{}".format(row['vehicles'], append_delivery_and_pickup_states(row))
                 vehicles_and_states_to_ppm_ratios.setdefault(key, [])
-                vehicles_and_states_to_ppm_ratios[key].append(float(row['price']) / float(row['truckMiles']))
+                try:
+                    vehicles_and_states_to_ppm_ratios[key].append(float(row['price']) / float(row['truckMiles']))
+                except ZeroDivisionError as e:
+                    print("Got zero division error with this row: ", row)
+                    raise e
             except ValueError:  # "could not convert string to float: price"
                 pass
 

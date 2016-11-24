@@ -5,7 +5,9 @@ import time
 import uuid
 
 import boto3
+import botocore.exceptions
 
+from comparables_scraper import COMBINED_CLEANED_COLUMNS
 from listings_scraper import get_cleaned_listings_column_groups
 
 S3_BUCKET = "177644182725"
@@ -40,8 +42,34 @@ def get_data_schema():
     return data_schema_attributes
 
 
+def get_combined_data_schema():
+    # Get all fields
+    all_fields = COMBINED_CLEANED_COLUMNS
+
+    # Now generate schema based on these lists used for attribute type mapping
+    CATEGORICAL_FIELDS = ['delivery.state', 'delivery.city', 'pickup.state',
+                          'pickup.city', 'vehicles']
+    NUMERIC_FIELDS = ['numVehicles', 'price', 'truckMiles', 'rv', 'van', 'travel trailer', 'car', 'atv', 'suv',
+                      'pickup', 'other', 'motorcycle', 'heavy equipment', 'boat', 'price_per_mile']
+    BINARY_FIELDS = ['vehicleOperable']
+
+    def field_name_to_attribute_type(field_name):
+        return 'CATEGORICAL' if field_name in CATEGORICAL_FIELDS else (
+            'NUMERIC' if field_name in NUMERIC_FIELDS else (
+                'BINARY' if field_name in BINARY_FIELDS else None))
+
+    data_schema_attributes = [
+        {'attributeName': field_name, 'attributeType': field_name_to_attribute_type(field_name)} for
+        field_name in all_fields
+        ]
+    if None in [attr_dict['attributeType'] for attr_dict in data_schema_attributes]:
+        raise Exception("get_data_schema: No mapping found for a field!")
+
+    return data_schema_attributes
+
+
 def create_and_evaluate_aml_model(csv_file_name, data_schema_attributes, target_field_name='price',
-                                  excluded_variable_names=None):
+                                  excluded_variable_names=None, row_id_column='listingId'):
     """
 
     data_schema_attributes looks like this: [
@@ -55,6 +83,7 @@ def create_and_evaluate_aml_model(csv_file_name, data_schema_attributes, target_
     :param List[dict[str, str]] data_schema_attributes: List of dicts with fieldName and fieldType values.
     :param str target_field_name: Target variable
     :param list[str] excluded_variable_names: Columns to exclude
+    :param str|None row_id_column: rowId column when creating data schema.
     :return: Response of get_evaluation call, once datasource, model & evaluation are created.
     """
 
@@ -65,7 +94,7 @@ def create_and_evaluate_aml_model(csv_file_name, data_schema_attributes, target_
     data_schema = {"version": "1.0",
                    # "recordAnnotationFieldName": 'listingId',
                    # "recordWeightFieldName": None,
-                   "rowId": 'listingId',
+                   "rowId": row_id_column,
                    "targetAttributeName": target_field_name,
                    "dataFormat": "CSV",
                    "dataFileContainsHeader": True,
@@ -108,13 +137,17 @@ def create_and_evaluate_aml_model(csv_file_name, data_schema_attributes, target_
     ml_columns = ', '.join([attr['attributeName'] for attr in data_schema_attributes
                             if attr['attributeName'] not in excluded_variable_names])
     ml_model_name = "Columns: {}".format(ml_columns)
-    create_ml_model_response = ml_client.create_ml_model(
-        MLModelId=ml_model_id,
-        MLModelName=ml_model_name,
-        MLModelType='REGRESSION',
-        Parameters={},
-        TrainingDataSourceId="training_" + ds_name)
-    print("Create ML model response: ", create_ml_model_response)
+    try:
+        create_ml_model_response = ml_client.create_ml_model(
+            MLModelId=ml_model_id,
+            MLModelName=ml_model_name,
+            MLModelType='REGRESSION',
+            Parameters={},
+            TrainingDataSourceId="training_" + ds_name)
+        print("Create ML model response: ", create_ml_model_response)
+    except botocore.exceptions.ClientError as e:
+        print("Couldn't create ML model with ")
+        raise e
 
     print("Wait until ML model creation is done")
     keep_polling(lambda: ml_client.get_ml_model(MLModelId=ml_model_id, Verbose=True),
@@ -143,25 +176,28 @@ def create_and_evaluate_aml_model(csv_file_name, data_schema_attributes, target_
 
 def keep_polling(first_arg_func, continuation_func_with_first_arg):
     first_arg_func_val = first_arg_func()
+    print("keep_polling: Starting to poll with first value = ", first_arg_func_val)
     while continuation_func_with_first_arg(first_arg_func_val):
         first_arg_func_val = first_arg_func()
         print("Waiting to get done... ", first_arg_func_val)
         time.sleep(5)
 
 
-def create_aml_model_with_cleaned_data(included_columns, csv_file_name="csv_files/cleaned_listings.csv", target_field_name='price'):
+def create_aml_model_with_csv(included_columns, csv_file_name="cleaned_listings.csv",
+                              target_field_name='price', row_id_column=None):
     """
-    Assumes cleaned_listings.csv is already uploaded to S3, and has all columns. Sets target field name to 'price'.
+    Assumes csv_file_name is already uploaded to S3, and has all columns. Sets target field name to 'price'.
     Only includes columns in data_schema_attributes
     :return:
     """
 
     # Given included columns, get excluded columns to pass to AML
-    data_schema_attributes = get_data_schema()
+    data_schema_attributes = get_combined_data_schema()
     all_columns = [attr_dict['attributeName'] for attr_dict in data_schema_attributes]
     excluded_columns = list(set(all_columns) - set(included_columns))
 
     create_and_evaluate_aml_model(csv_file_name,
                                   data_schema_attributes=data_schema_attributes,
                                   target_field_name=target_field_name,
-                                  excluded_variable_names=excluded_columns)
+                                  excluded_variable_names=excluded_columns,
+                                  row_id_column=row_id_column)
